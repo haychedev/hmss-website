@@ -1,0 +1,42 @@
+@import url(utils/fonts.css);
+@import url(utils/variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'quicksand', sans-serif;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dull-black);
+}
+
+a:hover {
+    cursor: pointer;
+}
+body{
+    background-color: var(--light);
+}
+
+section{
+    padding: 0 100px;
+}
+
+@media only screen and (max-width: 990px) {
+    section{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    section{
+        padding: 0 10px;
+    }
+}
+
