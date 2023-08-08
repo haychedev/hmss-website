@@ -64,7 +64,7 @@ export default {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: #111111a4;
+    background: #11111173;
     width: 100%;
     height: 80px;
     padding: 0 10px;
@@ -87,7 +87,7 @@ export default {
     padding: 20px 100px;
     justify-content: space-between;
     align-items: center;
-    background: #111111a4;
+    background: #11111173;
     position: fixed;
     top: 0;
     width: 100%;
