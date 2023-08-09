@@ -1,6 +1,7 @@
 <template>
   <Navigation/>
-  <mainSection/>
+  <RouterView/>
+  <!-- <mainSection/> -->
   <!-- <hero/>
   <about/>
   <vision/>
@@ -14,7 +15,7 @@
 <script>
 
 import Navigation from './components/Navigation.vue';
-import mainSection from './pages/home/mainSection.vue';
+// import mainSection from './pages/home/mainSection.vue';
 // import hero from './pages/home/hero.vue';
 // import about from './pages/home/about.vue';
 // import vision from './pages/home/vision';
@@ -27,7 +28,7 @@ export default {
   name: 'App',
   components: {
     Navigation,
-    mainSection,
+    // mainSection,
     // hero,
     // about,
     // vision,
