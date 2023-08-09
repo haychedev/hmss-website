@@ -33,7 +33,7 @@
                 capabilities</p>
             </div>
             <div class="objectiveImg">
-                 <img :src= goalImg>
+                 <img :src= objImg>
             </div>
         </section>
     </div>
