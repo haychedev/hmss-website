@@ -8,9 +8,11 @@
     </div>
     <div class="objectiveContainer">
         <section class="objectiveSection">
-            <div class="objectiveImg"></div>
+            <div class="goalImg">
+                <img :src= goalImg>
+            </div>
             <div class="objectiveText">
-                <h1>our objective</h1>
+                <h1>our goal</h1>
                 <p>Development of comprehensive data management
                     solutions with Geographic Information System (GIS)
                     capabilities</p>
@@ -30,7 +32,9 @@
                 solutions with Geographic Information System (GIS)
                 capabilities</p>
             </div>
-            <div class="objectiveImg"></div>
+            <div class="objectiveImg">
+                 <img :src= goalImg>
+            </div>
         </section>
     </div>
     <div class="northstar-info">
@@ -45,7 +49,9 @@
         </section>
     </div>
     <section class="how-to">
-        <div class="how-to-img"></div>
+        <div class="how-to-img">
+            <img :src= howImg>
+        </div>
         <div class="how-to-text">
             <p>To take an assessment, visit our site, enter your name in the appropriate field(s), and proceed to take any
                 of the self-guided assessments that evaluate skill levels in 15 areas</p>
@@ -75,7 +81,17 @@
     </section>
 </template>
 <script>
-
+export default {
+    data: () => ({
+        goalImg: require('@/assets/academygoal.jpg'),
+        objImg: require('@/assets/academicobjective.jpg'),
+        howImg: require('@/assets/howtoimg.jpg'),
+        
+        
+       
+       
+    })
+}
 </script>
 <style scoped>
 .container {
@@ -90,7 +106,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100%;
     width: 100%;
 }
@@ -126,10 +142,26 @@
 }
 
 
+.goalImg {
+    width: 400px;
+    height: 410px;
+    /* border: 1px solid red; */
+}
+
+.goalImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.objectiveImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .objectiveImg {
     width: 400px;
     height: 410px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .objectiveText {
@@ -158,7 +190,7 @@ line-height: 102.2%; /* 24.528px */
 
 .northstar-info {
     height: 50vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background: url("/src/assets/northstarbg.png");
     /* background-position: 100% 100%; */
     background-repeat: no-repeat;
@@ -182,7 +214,7 @@ line-height: 102.2%; /* 24.528px */
    font-size: 40px;
    font-family: Oswald;
    font-weight: 300;
-
+    margin-bottom: 30px;
 }
 
 
@@ -197,7 +229,14 @@ line-height: 102.2%; /* 24.528px */
 .how-to-img {
     width: 400px;
     height: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.how-to-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center center;
 }
 
 .how-to-text {
