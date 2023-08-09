@@ -159,6 +159,12 @@ line-height: 102.2%; /* 24.528px */
 .northstar-info {
     height: 50vh;
     border: 1px solid red;
+    background: url("/src/assets/northstarbg.png");
+    /* background-position: 100% 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .northstar-section {
@@ -169,6 +175,7 @@ line-height: 102.2%; /* 24.528px */
 .northstar-text {
     align-self: flex-end;
     margin-bottom: 30px;
+    color: var(--light);
 
 }
 .northstar-text h3{
@@ -237,6 +244,18 @@ line-height: 102.2%; /* 24.528px */
 
 .sectionTitle h1 {
     font-size: 80px;
+}
+
+.northstar-text h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.northstar-text p{
+    font-size: 18px;
+}
+
+.northstar-info{
+    background-position: 90% 30%;
 }
 
 }
