@@ -2,7 +2,15 @@
     <div class="mobileMenu">
         <ul class="mobile-nav-links">
             <li><a href="" class="mobile-nav-link">about</a></li>
-            <li><a href="" class="mobile-nav-link">services</a></li>
+            <li  @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="mobile-nav-link">business units</li>
+            <ul :class="{ big: active }"  class="biz-items">
+               <a href="/academy"><li class="biz-item">hayche academy</li></a>
+               <a href="projects"><li class="biz-item">hayche development</li></a>
+               <a href="/digital"><li class="biz-item">hayche digital</li></a>
+               <a href="/lifestyle"><li class="biz-item">hayche lifestyle</li></a>
+               <a href="/network"><li class="biz-item">hayche network</li></a>
+              
+            </ul>
             <li><a href="" class="mobile-nav-link">reviews</a></li>
             <li><a href="" class="mobile-nav-link">contact</a></li>
             <li><a href="" class="mobile-nav-link">blog</a></li>
@@ -10,10 +18,38 @@
     </div>
 </template>
 <script>
-export default {};
+export default {
+    data: () => ({
+       
+        active: false
+    }),
+};
 </script>
 
 <style>
+.biz-items{
+    margin-top: 0;
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -20px;
+    color: var(--light);
+    
+}
+.biz-item{
+    color: var(--light);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.big{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* display: block;
+    margin-top: -10px; */
+}
+
 .mobileMenu{
     position: absolute;
     height: 100vh;

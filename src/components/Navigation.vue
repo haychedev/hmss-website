@@ -27,7 +27,7 @@
     <MobileNavigationMenu :class="{ 'open': showNav }" />
     <div class="mobile-nav" v-if="mobileView" @click="showNav = !showNav">
         <div class="mobile-nav-logo" @click="showNav = !showNav">
-            <img class="logo-img" src="../assets/hayche-logo.png" alt="hayche logo">
+            <a href="/"><img class="logo-img" src="../assets/hayche-logo.png" alt="hayche logo"></a>
         </div>
         <div id="nav-icon" class="nav-icon">
             <i class="fas fa-bars"></i>

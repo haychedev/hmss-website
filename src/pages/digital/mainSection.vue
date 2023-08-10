@@ -2,16 +2,16 @@
     <div class="container">
         <section class="heading">
             <div class="sectionTitle">
-                <h1>hayche academy</h1>
+                <h1>hayche digital</h1>
             </div>
         </section>
     </div>
     <div class="contentContainer">
         <div class="contentBox">
-            <h3>Hayche Digital develops custom solutions that take into account cultural and geographic diversity
+            <p>Hayche Digital develops custom solutions that take into account cultural and geographic diversity
                 that have a special impact on organizational communications, change processes and work
                 practices, and that reflect the varying societal and infrastructural conditions in which our solutions
-                are deployed.</h3>
+                are deployed.</p>
         </div>
         <section class="objectiveContainer">
             <div class="objectiveImg"></div>
@@ -30,7 +30,9 @@
         <section>
             <h3>our solutions</h3>
             <div class="solution">
-                <div class="solutionImg"></div>
+                <div class="solutionImg">
+                    <img :src= img1>
+                </div>
                 <div class="solutionText">
                     <h4>Candidate Evaluation Mobile App (CEMA)</h4>
                     <p>The candidate evaluation mobile app allows for capturing quantitative and
@@ -42,7 +44,9 @@
             </div>
 
             <div class="solution">
-                <div class="solutionImg"></div>
+                <div class="solutionImg">
+                    <img :src= img2>
+                </div>
                 <div class="solutionText">
                     <h4>Candidate Evaluation Mobile App (CEMA)</h4>
                     <p>The candidate evaluation mobile app allows for capturing quantitative and
@@ -54,7 +58,9 @@
             </div>
 
             <div class="solution">
-                <div class="solutionImg"></div>
+                <div class="solutionImg">
+                    <img :src= img3>
+                </div>
                 <div class="solutionText">
                     <h4>Candidate Evaluation Mobile App (CEMA)</h4>
                     <p>The candidate evaluation mobile app allows for capturing quantitative and
@@ -66,7 +72,9 @@
             </div>
 
             <div class="solution">
-                <div class="solutionImg"></div>
+                <div class="solutionImg">
+                    <img :src= img4>
+                </div>
                 <div class="solutionText">
                     <h4>Candidate Evaluation Mobile App (CEMA)</h4>
                     <p>The candidate evaluation mobile app allows for capturing quantitative and
@@ -78,7 +86,9 @@
             </div>
 
             <div class="solution">
-                <div class="solutionImg"></div>
+                <div class="solutionImg">
+                    <img :src= img5>
+                </div>
                 <div class="solutionText">
                     <h4>Candidate Evaluation Mobile App (CEMA)</h4>
                     <p>The candidate evaluation mobile app allows for capturing quantitative and
@@ -92,7 +102,9 @@
     </div>
     <section>
         <div class="usaidSection">
-            <div class="usaidImg"></div>
+            <div class="usaidImg">
+                <img :src= img6>
+            </div>
             <div class="usaidText">
                 <h4>Hayche Digital conducts geographical information systems (GIS) training</h4>
                 <p>Hayche Digital in collaboration with USAID/Nigeria Program Office (PRO) conducted a 4-day GIS training,
@@ -111,12 +123,23 @@
     </section>
 </template>
 <script>
-
+export default{
+    data: () => ({
+        img1: require('@/assets/solution-img-1.png'),
+        img2: require('@/assets/solution-img-2.png'),
+        img3: require('@/assets/solution-ing-3.png'),
+        img4: require('@/assets/solution-img-4.png'),
+        img5: require('@/assets/solution-img-5.png'),
+        img6: require('@/assets/usaid.png'),
+    })
+}
 </script>
 <style scoped>
 .container {
     height: 80vh;
-    background: var(--dark-purple);
+    background: url('/src/assets/digital.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .heading {
@@ -164,19 +187,35 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    color: var(--light);
+    margin-top: 50px;
 }
 
 .objectiveText {
     width: 500px;
 }
 
+.objectiveText h1{
+    color: var(--light, #F8F8F8);
+font-family: Oswald;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 102.2%; /* 49.056px */
+text-transform: uppercase;
+margin-bottom: 30px;
+}
 .solutionsContainer {
     padding-top: 50px;
 }
 
 .solutionsContainer h3 {
     text-align: center;
+    font-size: 35px;
     margin-bottom: 50px;
+    font-family: Oswald;
+    font-weight: 300;
+    text-transform: capitalize;
 }
 
 .solution {
@@ -191,11 +230,25 @@
 .solutionImg {
     width: 250px;
     height: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
+.solutionImg img{
+    width: 100%;
+    height: 100%;
+}
 .solutionText {
     width: 500px;
+}
+
+.solutionText h4{
+    /* color: var(--light, #F8F8F8); */
+    /* text-align: center; */
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: Oswald;
+    font-weight: 300;
+    text-transform: capitalize;
 }
 
 .usaidSection{
@@ -210,6 +263,68 @@
 .usaidImg{
     width: 200px;
     height: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
+
+.usaidImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.usaidText h4{
+    font-family: Oswald;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+margin-bottom: 20px;
+/* line-height: 110%; */
+}
+
+@media only screen and (max-width: 1126px){
+    .sectionTitle h1 {
+   
+    font-size: 50px;
+   
+}
+.contentBox{
+    margin: 0 30px;
+    padding: 50px;
+}
+}
+@media only screen and (max-width: 800px){
+    .solution{
+    justify-content: left;
+}
+}
+@media only screen and (max-width: 500px){
+    .contentBox{
+    margin: 0 20px;
+    padding:50px 30px;
+}
+.objectiveText h1{
+
+font-size: 30px;
+font-style: normal;
+
+}
+.objectiveText p{
+
+font-size: 15px;
+/* font-style: normal; */
+
+}
+.solution{
+    justify-content: left;
+}
+
+.usaidSection{
+    width: 100%;
+}
+
+.usaidText h4{
+    font-size: 25px;
+}
+}
+
 </style>

@@ -26,7 +26,7 @@
                     hospitality personnel,
                     By providing comprehensive...
                 </p>
-                <a href="" class="unit-btn">read more</a>
+                <a href="academy" class="unit-btn">read more</a>
 
             </div>
             <div class="unit-item development">
@@ -37,7 +37,7 @@
                     Monitoring and Evaluation of development 
 activities provides government officials...
                 </p>
-                <a href="" class="unit-btn">read more</a>
+                <a href="/projects" class="unit-btn">read more</a>
 
             </div>
             <div class="unit-item digital">
@@ -48,7 +48,7 @@ activities provides government officials...
                     Hayche Digital develops custom solutions 
 that take into account cultural and geographic...
                 </p>
-                <a href="" class="unit-btn">read more</a>
+                <a href="/digital" class="unit-btn">read more</a>
             </div>
             <div class="unit-item lifestyle">
                 <h3 class="unit-title">
@@ -58,7 +58,7 @@ that take into account cultural and geographic...
                     Promoting tourism within Africa, Showcasing 
 the African culture
                 </p>
-                <a href="" class="unit-btn">read more</a>
+                <a href="/lifestyle" class="unit-btn">read more</a>
             </div>
             <div class="unit-item network">
                 <h3 class="unit-title">
@@ -68,7 +68,7 @@ the African culture
                     A platform where hospitality establishments, 
 independent consultants, and job seekers can...
                 </p>
-                <a href="" class="unit-btn">read more</a>
+                <a href="/network" class="unit-btn">read more</a>
             </div>
         </section>
     </main>

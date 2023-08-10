@@ -9,31 +9,37 @@
     <div class="objectiveContainer">
         <section class="objectiveSection">
             <div class="goalImg">
-                <img :src= goalImg>
+                <img :src=goalImg>
             </div>
             <div class="objectiveText">
                 <h1>our goal</h1>
-                <p>Development of comprehensive data management
-                    solutions with Geographic Information System (GIS)
-                    capabilities</p>
-                <br> <p>Development of comprehensive data management
-                solutions with Geographic Information System (GIS)
-                capabilities</p>
+                <p>Training and placement of hospitality personnel</p>
+
+                <p>By providing comprehensive training and mentorship opportunities, we can help personnel develop the
+                    skills and confidence they need to excel in the hospitality industry.</p>
+                <p>Additionally, a strong recruitment and placement process can ensure that candidates are matched with the
+                    right positions based on their skills and experience. Overall, our goal is to help individuals build
+                    successful careers in hospitality while also meeting the needs of businesses in the industry.</p>
             </div>
         </section>
         <section class="objectiveSection obj">
             <div class="objectiveText">
                 <h1>our objective</h1>
-                <p>Development of comprehensive data management
-                    solutions with Geographic Information System (GIS)
-                    capabilities</p>
-                <br>
-                <p>Development of comprehensive data management
-                solutions with Geographic Information System (GIS)
-                capabilities</p>
+                <p class="p-head"><b>Workforce Development</b></p>
+                
+                <p>By investing in skills and abilities of our employees, we 
+can create a more engaged and motivated workforce.</p>
+<br>
+<p class="p-head"><b>Training</b></p>
+<p>We offer comprehensive program covering all aspects 
+of hospitality.</p>
+<br>
+<p class="p-head"><b>Placement of competent hospitality personnels</b></p>
+<p>We match candidates with the right positions based on
+skills</p>
             </div>
             <div class="objectiveImg">
-                 <img :src= objImg>
+                <img :src=objImg>
             </div>
         </section>
     </div>
@@ -50,27 +56,27 @@
     </div>
     <section class="how-to">
         <div class="how-to-img">
-            <img :src= howImg>
+            <img :src=howImg>
         </div>
         <div class="how-to-text">
             <p>To take an assessment, visit our site, enter your name in the appropriate field(s), and proceed to take any
                 of the self-guided assessments that evaluate skill levels in 15 areas</p>
             <ul>
                 <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
-                <li>basic computer skills</li>
+                <li>intetnet services</li>
+                <li>using email</li>
+                <li>windows</li>
+                <li>mac os</li>
+                <li>microsoft word</li>
+                <li>microsoft excel</li>
+                <li>microsoft powerpoint</li>
+                <li>google docs</li>
+                <li>social media</li>
+                <li>information literacy</li>
+                <li>career search skills</li>
+                <li>your digital footprint</li>
+                <li>supporting k-12 distance learning</li>
+                <li>accessing telehealth appointments</li>
             </ul>
         </div>
     </section>
@@ -86,14 +92,18 @@ export default {
         goalImg: require('@/assets/academygoal.jpg'),
         objImg: require('@/assets/academicobjective.jpg'),
         howImg: require('@/assets/howtoimg.jpg'),
-        
-        
-       
-       
+
+
+
+
     })
 }
 </script>
 <style scoped>
+.how-to-text ul li{
+    text-transform: capitalize;
+}
+
 .container {
     height: 80vh;
     background: url('/src/assets/hayche-academy-page.png');
@@ -148,16 +158,18 @@ export default {
     /* border: 1px solid red; */
 }
 
-.goalImg img{
+.goalImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.objectiveImg img{
+
+.objectiveImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .objectiveImg {
     width: 400px;
     height: 410px;
@@ -168,23 +180,27 @@ export default {
     width: 500px;
 }
 
-.objectiveText h1{
+.objectiveText h1 {
     color: var(--light, #F8F8F8);
-font-family: Oswald;
-font-size: 40px;
-font-style: normal;
-font-weight: 300;
-line-height: 102.2%; /* 49.056px */
-text-transform: uppercase;
-margin-bottom: 30px;
+    font-family: Oswald;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 102.2%;
+    /* 49.056px */
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
-.objectiveText p{
-color: var(--light, #F8F8F8);
-font-family: Quicksand;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 102.2%; /* 24.528px */
+
+.objectiveText p {
+    color: var(--light, #F8F8F8);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 102.2%;
+    margin-bottom: 10px;
+    /* 24.528px */
 
 }
 
@@ -210,10 +226,11 @@ line-height: 102.2%; /* 24.528px */
     color: var(--light);
 
 }
-.northstar-text h3{
-   font-size: 40px;
-   font-family: Oswald;
-   font-weight: 300;
+
+.northstar-text h3 {
+    font-size: 40px;
+    font-family: Oswald;
+    font-weight: 300;
     margin-bottom: 30px;
 }
 
@@ -232,7 +249,7 @@ line-height: 102.2%; /* 24.528px */
     /* border: 1px solid red; */
 }
 
-.how-to-img img{
+.how-to-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -258,44 +275,83 @@ line-height: 102.2%; /* 24.528px */
 }
 
 @media only screen and (max-width: 1126px) {
-    .obj{
-    flex-direction: row-reverse;    
+    .obj {
+        flex-direction: row-reverse;
     }
-    .objectiveSection{
+
+    .objectiveSection {
         justify-content: left;
     }
-    .obj{
+
+    .obj {
         justify-content: left;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
     .note p {
-    width: 100%;
+        width: 100%;
+    }
+
+    .obj {
+        flex-direction: row-reverse;
+    }
+
+    .container {
+        background-position: center;
+    }
+
+    .sectionTitle h1 {
+        font-size: 80px;
+    }
+
+    .northstar-text h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .northstar-text p {
+        font-size: 15px;
+    }
+
+    .northstar-info {
+        background: url('/src/assets/northstar-mobile-bg.png');
+    }
+
+    .objectiveText p {
+        font-size: 15px;
+    }
+
+
+    .objectiveText h1 {
+        font-size: 30px;
+    }
+
+    .northstar-info {
+        height: 70vh;
+    }
+
+    .objectiveText {
+        width: 100%;
+
+    }
+
+    .objectiveText p {
+        width: 100%;
+
+    }
 }
 
-.obj{
-    flex-direction: row-reverse;
-}
-.container{
-    background-position: center;
-}
+@media only screen and (max-width: 1126px) {
+    .sectionTitle h1 {
+        color: var(--light, #F8F8F8);
+        text-align: center;
+        font-family: Oswald;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 102.2%;
+        text-transform: uppercase;
+    }
 
-.sectionTitle h1 {
-    font-size: 80px;
-}
-
-.northstar-text h3{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-.northstar-text p{
-    font-size: 18px;
-}
-
-.northstar-info{
-    background-position: 90% 30%;
-}
-
-}
-</style>
+}</style>

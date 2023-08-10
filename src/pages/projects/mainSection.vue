@@ -34,7 +34,7 @@
         <section class="objectiveContainer">
             <div class="objectiveImg"></div>
             <div class="objectiveText">
-                <h1>our objective</h1>
+                <h1>our goal</h1>
                 <p>Development of comprehensive data management
                     solutions with Geographic Information System (GIS)
                     capabilities</p>
@@ -64,14 +64,14 @@
 <style scoped>
 .container {
     height: 80vh;
-    background: var(--dark-purple);
+    background: url('/src/assets/projects.png');
 }
 
 .intro {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100%;
     width: 100%;
 }
@@ -95,15 +95,16 @@
 .text-box {
     display: flex;
     background: var(--light);
-    margin: 0 100px;
+    margin: 0 30px;
     padding: 50px;
+    gap: 30px;
 }
 
 
 .objectiveImg {
     width: 400px;
     height: 410px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .objectiveContainer {
@@ -113,6 +114,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    color: var(--light);
+    margin-bottom: 50px;
 
 }
 
@@ -122,5 +125,64 @@
 
 .wrapper{
     background: var(--dark-purple);
+    padding-top: 50px;
+}
+
+.objectiveText h1{
+    color: var(--light, #F8F8F8);
+font-family: Oswald;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 102.2%; /* 49.056px */
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+.objectiveText p{
+color: var(--light, #F8F8F8);
+font-family: Quicksand;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 102.2%; /* 24.528px */
+
+}
+
+@media only screen and (max-width: 500px){
+    .objectiveText p{
+    font-size: 15px;
+}
+
+
+.objectiveText h1{
+    font-size: 30px;
+}
+
+.text-box {
+    margin: 0 20px;
+    flex-direction: column;
+  
+}
+.sectionTitle h1 {
+    font-size: 30px;
+}
+
+.text p{
+    font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 1126px){
+    .sectionTitle h1 {
+    color: var(--light, #F8F8F8);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 102.2%;
+    text-transform: uppercase;
+}
 }
 </style>
