@@ -7,7 +7,8 @@ import academy from './pages/academy/mainSection.vue';
 import digital from './pages/digital/mainSection.vue';
 import lifestyle from './pages/lifestyle/mainSection.vue';
 import projects from './pages/projects/mainSection.vue';
-import about from './pages/about/aboutPage.vue'
+import about from './pages/about/aboutPage.vue';
+import contact from './pages/contact/contactPage.vue'
 
 const routes = [
     { path: '/', component: home },
@@ -16,6 +17,7 @@ const routes = [
     { path: '/lifestyle', component: lifestyle },
     { path: '/projects', component: projects },
     { path: '/about', component: about },
+    { path: '/contact', component: contact },
 ];
 
 const router = createRouter({

@@ -13,7 +13,7 @@
             </div>
             <div class="objectiveText">
                 <h1>our goal</h1>
-                <p>Training and placement of hospitality personnel</p>
+                <h5>Training and placement of hospitality personnel</h5>
 
                 <p>By providing comprehensive training and mentorship opportunities, we can help personnel develop the
                     skills and confidence they need to excel in the hospitality industry.</p>
@@ -25,18 +25,18 @@
         <section class="objectiveSection obj">
             <div class="objectiveText">
                 <h1>our objective</h1>
-                <p class="p-head"><b>Workforce Development</b></p>
-                
-                <p>By investing in skills and abilities of our employees, we 
-can create a more engaged and motivated workforce.</p>
-<br>
-<p class="p-head"><b>Training</b></p>
-<p>We offer comprehensive program covering all aspects 
-of hospitality.</p>
-<br>
-<p class="p-head"><b>Placement of competent hospitality personnels</b></p>
-<p>We match candidates with the right positions based on
-skills</p>
+                <h5 class="p-head">Workforce Development</h5>
+
+                <p>By investing in skills and abilities of our employees, we
+                    can create a more engaged and motivated workforce.</p>
+                <br>
+                <h5>Training</h5>
+                <p>We offer comprehensive program covering all aspects
+                    of hospitality.</p>
+                <br>
+                <h5>Placement of competent hospitality personnels</h5>
+                <p>We match candidates with the right positions based on
+                    skills</p>
             </div>
             <div class="objectiveImg">
                 <img :src=objImg>
@@ -100,7 +100,7 @@ export default {
 }
 </script>
 <style scoped>
-.how-to-text ul li{
+.how-to-text ul li {
     text-transform: capitalize;
 }
 
@@ -192,13 +192,20 @@ export default {
     margin-bottom: 30px;
 }
 
+.objectiveText h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+   
+}
+
 .objectiveText p {
     color: var(--light, #F8F8F8);
     font-family: Quicksand;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 102.2%;
+    line-height: 20px;
     margin-bottom: 10px;
     /* 24.528px */
 
@@ -354,4 +361,5 @@ export default {
         text-transform: uppercase;
     }
 
-}</style>
+}
+</style>

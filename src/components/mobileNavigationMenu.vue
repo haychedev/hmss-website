@@ -12,7 +12,7 @@
               
             </ul>
             <li><a href="/#reviews" class="mobile-nav-link">reviews</a></li>
-            <li><a href="" class="mobile-nav-link">contact</a></li>
+            <li><a href="/contactPage" class="mobile-nav-link">contact</a></li>
             <li><a href="" class="mobile-nav-link">blog</a></li>
         </ul>
     </div>

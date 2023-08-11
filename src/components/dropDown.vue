@@ -39,6 +39,11 @@ export default{}
 
 .dropdown-links a{
     color: var(--light);
+    padding-bottom: 10px;
+}
+
+.dropdown-links a:hover{
+    border-bottom: 2px solid var(--light);
 }
 
 </style>

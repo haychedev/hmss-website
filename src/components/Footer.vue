@@ -77,7 +77,7 @@ export default {
 .footer-logo {
     height: 70px;
     width: 70px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .footer-text {
