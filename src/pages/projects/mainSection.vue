@@ -32,34 +32,37 @@
     </div>
     <div class="wrapper">
         <section class="objectiveContainer">
-            <div class="objectiveImg"></div>
+            <div class="objectiveImg">
+                <img :src= img2>
+            </div>
             <div class="objectiveText">
                 <h1>our goal</h1>
-                <p>Development of comprehensive data management
-                    solutions with Geographic Information System (GIS)
-                    capabilities</p>
-                <br>Development of comprehensive data management
-                solutions with Geographic Information System (GIS)
-                capabilities
+                <p>Supporting organizations in the integration of M&E as a 
+management tool rather than a donor requirement.</p>
+                
             </div>
         </section>
         <section class="objectiveContainer">
             <div class="objectiveText">
                 <h1>our objective</h1>
-                <p>Development of comprehensive data management
-                    solutions with Geographic Information System (GIS)
-                    capabilities</p>
-                <br>Development of comprehensive data management
-                solutions with Geographic Information System (GIS)
-                capabilities
+                <p>Develop monitoring and evaluating (M&E) frameworks that integrate international evaluation policy and M&E guidelines</p>
+                <br>
+               <p>Develop M&E data management systems</p>
             </div>
-            <div class="objectiveImg"></div>
+            <div class="objectiveImg">
+                <img :src= img1>
+            </div>
 
         </section>
     </div>
 </template>
 <script>
-
+export default{
+    data: () => ({
+        img1: require('@/assets/dev-plan.jpg'),
+        img2: require('@/assets/dev-goal.jpg'),
+    })
+}
 </script>
 <style scoped>
 .container {
@@ -107,6 +110,12 @@
     /* border: 1px solid red; */
 }
 
+.objectiveImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .objectiveContainer {
     display: flex;
     flex-direction: row;
@@ -115,7 +124,7 @@
     align-items: center;
     justify-content: center;
     color: var(--light);
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 }
 
@@ -126,6 +135,7 @@
 .wrapper{
     background: var(--dark-purple);
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .objectiveText h1{
@@ -159,7 +169,7 @@ line-height: 102.2%; /* 24.528px */
 }
 
 .text-box {
-    margin: 0 20px;
+    margin: 0 10px;
     flex-direction: column;
   
 }

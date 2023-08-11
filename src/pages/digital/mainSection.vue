@@ -14,7 +14,9 @@
                 are deployed.</p>
         </div>
         <section class="objectiveContainer">
-            <div class="objectiveImg"></div>
+            <div class="objectiveImg">
+                <img :src=img7>
+            </div>
             <div class="objectiveText">
                 <h1>our objective</h1>
                 <p>Development of comprehensive data management
@@ -31,71 +33,90 @@
             <h3>our solutions</h3>
             <div class="solution">
                 <div class="solutionImg">
-                    <img :src= img1>
+                    <img :src=img1>
                 </div>
                 <div class="solutionText">
                     <h4>Candidate Evaluation Mobile App (CEMA)</h4>
-                    <p>The candidate evaluation mobile app allows for capturing quantitative and
-                        qualitative responses. The integrated categories are designed to measure
-                        experience, skills, knowledge, and work style to assist recruiter in determining
-                        the most qualified candidate for a position as well as provide professional
-                        development feedback to internal candidates.</p>
+                    <p>The candidate evaluation mobile app allows for capturing quantitative and qualitative responses. The
+                        integrated categories are designed to measure experience, skills, knowledge, and work style to
+                        assist recruiter in determining the most qualified candidate for a position as well as provide
+                        professional development feedback to internal candidates.</p>
                 </div>
             </div>
 
             <div class="solution">
                 <div class="solutionImg">
-                    <img :src= img2>
+                    <img :src=img2>
                 </div>
                 <div class="solutionText">
-                    <h4>Candidate Evaluation Mobile App (CEMA)</h4>
-                    <p>The candidate evaluation mobile app allows for capturing quantitative and
-                        qualitative responses. The integrated categories are designed to measure
-                        experience, skills, knowledge, and work style to assist recruiter in determining
-                        the most qualified candidate for a position as well as provide professional
-                        development feedback to internal candidates.</p>
+                    <h4>Data Quality Assessment (DQA)</h4>
+                    <p>Anyone may use this DQA Checklist mobile app to determine whether or not a more thorough DQA might be
+                        necessary. The app provides a quick and convenient rating system that assigns a numerical value to
+                        each of the five aspects of data quality assessed.</p>
+                    <br>
+                    <p>The rating system is based on a 5-point Likert scale that allows assessor to express her/his
+                        agreement or disagreement with specific statements related to each aspect of data quality following
+                        an assessment. The score obtained in each of the five aspects of data quality are combined to
+                        produce an overall score</p>
                 </div>
             </div>
 
             <div class="solution">
                 <div class="solutionImg">
-                    <img :src= img3>
+                    <img :src=img3>
                 </div>
                 <div class="solutionText">
-                    <h4>Candidate Evaluation Mobile App (CEMA)</h4>
-                    <p>The candidate evaluation mobile app allows for capturing quantitative and
-                        qualitative responses. The integrated categories are designed to measure
-                        experience, skills, knowledge, and work style to assist recruiter in determining
-                        the most qualified candidate for a position as well as provide professional
-                        development feedback to internal candidates.</p>
+                    <h4>Mobile Electric Medical Record (MEMR)</h4>
+                    <p>In the simplest terms, an electronic medical record (EMR) is a digitized version of hospitals and
+                        clinics paper records. EMRs replace the use of paper at health facilities for storing patients'
+                        records and keeping medical practitioners up to date on progress of a patient's treatment.</p>
+                    <br>
+                    <p>The Hayche Digital Mobile EMR differs from a traditional EMR in that it is deployed through a mobile
+                        data collection (MDC) platform. By using a mobile EMR, any health facility is able to leverage a
+                        robust platform that is faster, cheaper, generates higher quality data, and is easier to integrate
+                        with existing systems.</p>
+                    <br>
+                    <p>The Enugu State Agency for Universal Health Coverage (ESAUHC) has deployed the Hayche Digital EMR
+                        Mobile to 300 primary health centers in Enugu state to support the efficient implementation of the
+                        Enugu State Universal Health Coverage Scheme (ESUHCS)</p>
                 </div>
             </div>
 
             <div class="solution">
                 <div class="solutionImg">
-                    <img :src= img4>
+                    <img :src=img4>
                 </div>
                 <div class="solutionText">
-                    <h4>Candidate Evaluation Mobile App (CEMA)</h4>
-                    <p>The candidate evaluation mobile app allows for capturing quantitative and
-                        qualitative responses. The integrated categories are designed to measure
-                        experience, skills, knowledge, and work style to assist recruiter in determining
-                        the most qualified candidate for a position as well as provide professional
-                        development feedback to internal candidates.</p>
+                    <h4>Organizational Capacity Assessment Mobile (OCAM) app</h4>
+                    <p>The Organizational Capacity Assessment Mobile (OCAM) app is used to assess, and rate organizational
+                        capability in five key areas: governance, organizational management, program management, human
+                        resources management, and financial management.</p>
+                    <br>
+                    <p>The rating system, based on a 5-point Likert scale allows assessor to express her/his agreement or
+                        disagreement with a particular statement by assigning a numerical value to the statement. The rating
+                        serves as a quick and convenient indicator of possible gaps, and weaknesses in specific aspects of
+                        the five key areas</p>
+                    <br>
+                    <p>OCAM is a customized version of the Organizational Capacity Assessment (OCA) tool developed by USAID
+                        / JSI Research & Training Institute, Inc. / FHI360</p>
                 </div>
             </div>
 
             <div class="solution">
                 <div class="solutionImg">
-                    <img :src= img5>
+                    <img :src=img5>
                 </div>
                 <div class="solutionText">
-                    <h4>Candidate Evaluation Mobile App (CEMA)</h4>
-                    <p>The candidate evaluation mobile app allows for capturing quantitative and
-                        qualitative responses. The integrated categories are designed to measure
-                        experience, skills, knowledge, and work style to assist recruiter in determining
-                        the most qualified candidate for a position as well as provide professional
-                        development feedback to internal candidates.</p>
+                    <h4>once toolbox</h4>
+                    <p>Once is a suite of utilities developed by Hayche Digital for the hospitality industry, and includes
+                    </p>
+                    <ul>
+                        <li>Guest management mobile app</li>
+                        <li>Hotel Audit and Assessment Metrics</li>
+                        <li> Inventory control mobile app</li>
+                        <li>Restaurant Audit and Assessment Metrics</li>
+                        <li>Smart Server (F&B order processing and control mobile app)</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -103,7 +124,7 @@
     <section>
         <div class="usaidSection">
             <div class="usaidImg">
-                <img :src= img6>
+                <img :src=img6>
             </div>
             <div class="usaidText">
                 <h4>Hayche Digital conducts geographical information systems (GIS) training</h4>
@@ -123,7 +144,7 @@
     </section>
 </template>
 <script>
-export default{
+export default {
     data: () => ({
         img1: require('@/assets/solution-img-1.png'),
         img2: require('@/assets/solution-img-2.png'),
@@ -131,6 +152,7 @@ export default{
         img4: require('@/assets/solution-img-4.png'),
         img5: require('@/assets/solution-img-5.png'),
         img6: require('@/assets/usaid.png'),
+        img7: require('@/assets/digital-img.jpg'),
     })
 }
 </script>
@@ -177,7 +199,13 @@ export default{
 .objectiveImg {
     width: 400px;
     height: 410px;
-    border: 1px solid red;
+
+}
+
+.objectiveImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .objectiveContainer {
@@ -195,16 +223,18 @@ export default{
     width: 500px;
 }
 
-.objectiveText h1{
+.objectiveText h1 {
     color: var(--light, #F8F8F8);
-font-family: Oswald;
-font-size: 40px;
-font-style: normal;
-font-weight: 300;
-line-height: 102.2%; /* 49.056px */
-text-transform: uppercase;
-margin-bottom: 30px;
+    font-family: Oswald;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 102.2%;
+    /* 49.056px */
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
+
 .solutionsContainer {
     padding-top: 50px;
 }
@@ -225,6 +255,7 @@ margin-bottom: 30px;
     flex-wrap: wrap;
     margin-bottom: 50px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .solutionImg {
@@ -233,15 +264,21 @@ margin-bottom: 30px;
     /* border: 1px solid red; */
 }
 
-.solutionImg img{
+.solutionImg img {
     width: 100%;
     height: 100%;
 }
+
 .solutionText {
     width: 500px;
 }
 
-.solutionText h4{
+.solutionText ul{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.solutionText h4 {
     /* color: var(--light, #F8F8F8); */
     /* text-align: center; */
     font-size: 30px;
@@ -251,7 +288,7 @@ margin-bottom: 30px;
     text-transform: capitalize;
 }
 
-.usaidSection{
+.usaidSection {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -260,71 +297,76 @@ margin-bottom: 30px;
     margin-bottom: 100px;
 }
 
-.usaidImg{
+.usaidImg {
     width: 200px;
     height: 200px;
     /* border: 1px solid red; */
 }
 
-.usaidImg img{
+.usaidImg img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.usaidText h4{
+.usaidText h4 {
     font-family: Oswald;
-font-size: 30px;
-font-style: normal;
-font-weight: 300;
-margin-bottom: 20px;
-/* line-height: 110%; */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 20px;
+    /* line-height: 110%; */
 }
 
-@media only screen and (max-width: 1126px){
+@media only screen and (max-width: 1126px) {
     .sectionTitle h1 {
-   
-    font-size: 50px;
-   
-}
-.contentBox{
-    margin: 0 30px;
-    padding: 50px;
-}
-}
-@media only screen and (max-width: 800px){
-    .solution{
-    justify-content: left;
-}
-}
-@media only screen and (max-width: 500px){
-    .contentBox{
-    margin: 0 20px;
-    padding:50px 30px;
-}
-.objectiveText h1{
 
-font-size: 30px;
-font-style: normal;
+        font-size: 50px;
 
-}
-.objectiveText p{
+    }
 
-font-size: 15px;
-/* font-style: normal; */
-
-}
-.solution{
-    justify-content: left;
+    .contentBox {
+        margin: 0 30px;
+        padding: 50px;
+    }
 }
 
-.usaidSection{
-    width: 100%;
+@media only screen and (max-width: 800px) {
+    .solution {
+        justify-content: left;
+    }
 }
 
-.usaidText h4{
-    font-size: 25px;
-}
-}
+@media only screen and (max-width: 500px) {
+    .contentBox {
+        margin: 0 20px;
+        padding: 50px 30px;
+    }
 
+    .objectiveText h1 {
+
+        font-size: 30px;
+        font-style: normal;
+
+    }
+
+    .objectiveText p {
+
+        font-size: 15px;
+        /* font-style: normal; */
+
+    }
+
+    .solution {
+        justify-content: left;
+    }
+
+    .usaidSection {
+        width: 100%;
+    }
+
+    .usaidText h4 {
+        font-size: 25px;
+    }
+}
 </style>

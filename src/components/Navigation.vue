@@ -3,7 +3,7 @@
     <header class="desktop-nav" v-if="!mobileView">
         <div class="header-right">
             <div class="logo">
-                <a href="/"><img class="logo-img" src="../assets/hayche-logo.png" alt="hayche logo"></a>
+                <a href="/"><img class="logo-img" src="../assets/hmss-logo.png" alt="hayche logo"></a>
             </div>
         </div>
         <div class="header-left">
@@ -11,7 +11,7 @@
                <li class="nav-link"><a href="/about">About Us</a></li>
                 <!-- <li class="nav-link"><a href="">Business Units</a></li> -->
                 <li  @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="nav-link">Business Units</li>
-                <li class="nav-link"><a href="/reviews">Reviews</a></li>
+                <li class="nav-link"><a href="/#reviews">Reviews</a></li>
                 <li class="nav-link"><a href="">Contact</a></li>
                 <li class="nav-link"><a href="">Blog</a></li>
             </ul>
@@ -27,7 +27,7 @@
     <MobileNavigationMenu :class="{ 'open': showNav }" />
     <div class="mobile-nav" v-if="mobileView" @click="showNav = !showNav">
         <div class="mobile-nav-logo" @click="showNav = !showNav">
-            <a href="/"><img class="logo-img" src="../assets/hayche-logo.png" alt="hayche logo"></a>
+            <a href="/"><img class="logo-img" src="../assets/hmss-logo.png" alt="hayche logo"></a>
         </div>
         <div id="nav-icon" class="nav-icon">
             <i class="fas fa-bars"></i>

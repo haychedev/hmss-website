@@ -91,11 +91,12 @@ line-height: 119.5%; /* 47.8px */
 letter-spacing: 0.4px;
 margin-top: 50px;
 margin-bottom: 50px;
+padding-bottom: 10px;
 transition: all 3s ease;
 }
 
 .cta-link:hover{
-    text-decoration-line: underline;
+    border-bottom: 2px solid var(--light-purple);
     transition: all 3s ease;
 }
 

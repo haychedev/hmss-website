@@ -1,5 +1,6 @@
 <template>
   <Navigation/>
+  <!-- <defence/> -->
   <RouterView/>
   <!-- <mainSection/> -->
   <!-- <hero/>
@@ -15,6 +16,7 @@
 <script>
 
 import Navigation from './components/Navigation.vue';
+// import defence from './pages/defence/defence-section.vue';
 // import mainSection from './pages/home/mainSection.vue';
 // import hero from './pages/home/hero.vue';
 // import about from './pages/home/about.vue';
@@ -28,6 +30,7 @@ export default {
   name: 'App',
   components: {
     Navigation,
+    // defence,
     // mainSection,
     // hero,
     // about,

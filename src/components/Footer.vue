@@ -59,7 +59,7 @@
 export default {
     name: 'footer-section',
     data: () => ({
-        logo: require('@/assets/hayche-logo.png'),
+        logo: require('@/assets/hmss-logo.png'),
         instagram: require('@/assets/Instagram.png'),
         whatsapp: require('@/assets/Whatsapp.png'),
         facebook: require('@/assets/Facebook.png'),
@@ -77,6 +77,7 @@ export default {
 .footer-logo {
     height: 70px;
     width: 70px;
+    margin-bottom: 25px;
 }
 
 .footer-text {
@@ -91,6 +92,7 @@ export default {
 
 .footer-logo img {
     width: 100%;
+   
 }
 
 

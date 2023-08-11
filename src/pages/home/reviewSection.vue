@@ -1,5 +1,5 @@
 <template>
-    <div class="review-container">
+    <div id="reviews" class="review-container">
         <section>
             <div class="review-heading">
                 <h3>hayche reviews</h3>

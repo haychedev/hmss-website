@@ -7,33 +7,43 @@
         </section>
     </div>
     <section class="objectiveContainer">
-        <div class="objectiveImg"></div>
+        <div class="objectiveImg">
+            <img :src=img2>
+        </div>
         <div class="objectiveText">
-            <h1>our objective</h1>
-            <p>Development of comprehensive data management
-                solutions with Geographic Information System (GIS)
-                capabilities</p>
-            <br>Development of comprehensive data management
-            solutions with Geographic Information System (GIS)
-            capabilities
+            <h1>our goal</h1>
+            <p>Showcase and promote African lifestyle</p>
         </div>
     </section>
     <section class="objectiveContainer">
-       
+
         <div class="objectiveText">
             <h1>our objective</h1>
-            <p>Development of comprehensive data management
-                solutions with Geographic Information System (GIS)
-                capabilities</p>
-            <br>Development of comprehensive data management
-            solutions with Geographic Information System (GIS)
-            capabilities
+          
+            <ul>
+                <li>Promote tourism within Africa</li>
+                <li>Showcase the African culture</li>
+                <li>Encourage cultural exchange between
+            professionals</li>
+              
+            </ul>
         </div>
-        <div class="objectiveImg"></div>
+        <div class="objectiveImg">
+            <img :src=img1>
+        </div>
     </section>
+    <DefenceSection/>
 </template>
 <script>
+import DefenceSection from '../defence/defence-section.vue';
 
+export default{
+    data: () => ({
+        img1: require('@/assets/africa.jpg'),
+        img2: require('@/assets/africa-culture.jpg'),
+    }),
+    components: { DefenceSection }
+}
 </script>
 <style scoped>
 .container {
@@ -68,7 +78,14 @@ section {
 .objectiveImg {
     width: 400px;
     height: 410px;
-    border: 1px solid red;
+   
+   
+}
+
+.objectiveImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .objectiveContainer {
@@ -88,15 +105,16 @@ section {
     width: 500px;
 }
 
-.objectiveText h1{
+.objectiveText h1 {
     color: var(--light, #F8F8F8);
-font-family: Oswald;
-font-size: 40px;
-font-style: normal;
-font-weight: 300;
-line-height: 102.2%; /* 49.056px */
-text-transform: uppercase;
-margin-bottom: 30px;
+    font-family: Oswald;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 102.2%;
+    /* 49.056px */
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1126px) {
