@@ -11,7 +11,7 @@
                <a href="/network"><li class="biz-item">hayche network</li></a>
               
             </ul>
-            <li><a href="" class="mobile-nav-link">reviews</a></li>
+            <li><a href="/#reviews" class="mobile-nav-link">reviews</a></li>
             <li><a href="" class="mobile-nav-link">contact</a></li>
             <li><a href="" class="mobile-nav-link">blog</a></li>
         </ul>
