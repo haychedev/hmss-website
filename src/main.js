@@ -2,6 +2,8 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 
+
+
 import home from './pages/home/mainSection.vue';
 import academy from './pages/academy/mainSection.vue';
 import digital from './pages/digital/mainSection.vue';

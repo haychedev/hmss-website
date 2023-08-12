@@ -16,8 +16,12 @@
 </template>
 
 <script>
+
+
 export default {
-    name: "hero-section"
+    name: "hero-section",
+
+   
 }
 </script>
 

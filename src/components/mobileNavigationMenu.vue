@@ -1,7 +1,7 @@
 <template>
     <div class="mobileMenu">
         <ul class="mobile-nav-links">
-            <li><a href="" class="mobile-nav-link">about</a></li>
+            <li><a href="/about" class="mobile-nav-link">about</a></li>
             <li  @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="mobile-nav-link">business units</li>
             <ul :class="{ big: active }"  class="biz-items">
                <a href="/academy"><li class="biz-item">hayche academy</li></a>

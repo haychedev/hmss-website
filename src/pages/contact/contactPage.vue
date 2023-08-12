@@ -112,7 +112,7 @@ i {
   }
 
   .container {
-    height: 30vh;
+    height: 50vh;
   }
 
   .contactBoxes {
