@@ -1,23 +1,46 @@
 <template>
     <main class="about-container">
         <section class="about-section">
-            <h2 class="about-text">
+            <h2 class="about-text" v-motion :initial="{
+                opacity: 0,
+                y: -100,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                 Hayche Multi Service Solutions (HMSS)
                 is a management consulting firm comprised of the following business units
             </h2>
             <img class="float-img hospitalityImg" :src=hospitality>
             <img class="float-img trainingImg" :src=training>
             <img class="float-img lifestyleImg" :src=lifestyle>
-            
-           <div class="arrow-img">
-            <img  class="imgLeft" :src=arrowLeft>
-            <img class="imgRight" :src=arrowRight>
-           </div>
+
+            <div class="arrow-img">
+                <img class="imgLeft" :src=arrowLeft>
+                <img class="imgRight" :src=arrowRight>
+            </div>
         </section>
     </main>
     <main class="units-container">
         <section class="units">
-            <div class="unit-item academy">
+            <div class="unit-item academy" v-motion :initial="{
+                opacity: 0,
+                x: -50,
+            }" :visibleOnce="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        delay: 50,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                 <h3 class="unit-title">
                     hayche academy
                 </h3>
@@ -29,44 +52,101 @@
                 <a href="academy" class="unit-btn">read more</a>
 
             </div>
-            <div class="unit-item development">
+
+
+            <div class="unit-item development" v-motion :initial="{
+                opacity: 0,
+                y: -50,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 100,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                 <h3 class="unit-title">
                     hayche development
                 </h3>
                 <p class="unit-text">
-                    Monitoring and Evaluation of development 
-activities provides government officials...
+                    Monitoring and Evaluation of development
+                    activities provides government officials...
                 </p>
                 <a href="/projects" class="unit-btn">read more</a>
 
             </div>
-            <div class="unit-item digital">
+
+
+            <div class="unit-item digital" v-motion :initial="{
+                opacity: 0,
+                x: 50,
+            }" :visibleOnce="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        delay: 200,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                 <h3 class="unit-title">
                     hayche digital
                 </h3>
                 <p class="unit-text">
-                    Hayche Digital develops custom solutions 
-that take into account cultural and geographic...
+                    Hayche Digital develops custom solutions
+                    that take into account cultural and geographic...
                 </p>
                 <a href="/digital" class="unit-btn">read more</a>
             </div>
-            <div class="unit-item lifestyle">
+
+
+
+            <div class="unit-item lifestyle" v-motion :initial="{
+                opacity: 0,
+                x: -50,
+            }" :visibleOnce="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        delay: 300,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                 <h3 class="unit-title">
                     hayche lifestyle
                 </h3>
                 <p class="unit-text">
-                    Promoting tourism within Africa, Showcasing 
-the African culture
+                    Promoting tourism within Africa, Showcasing
+                    the African culture
                 </p>
                 <a href="/lifestyle" class="unit-btn">read more</a>
             </div>
-            <div class="unit-item network">
+
+
+            <div class="unit-item network" v-motion :initial="{
+                opacity: 0,
+                x: 50,
+            }" :visibleOnce="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        delay: 400,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                 <h3 class="unit-title">
                     hayche network
                 </h3>
                 <p class="unit-text">
-                    A platform where hospitality establishments, 
-independent consultants, and job seekers can...
+                    A platform where hospitality establishments,
+                    independent consultants, and job seekers can...
                 </p>
                 <a href="/network" class="unit-btn">read more</a>
             </div>
@@ -83,70 +163,73 @@ export default {
         hospitality: require('@/assets/hospitality.png'),
         lifestyle: require('@/assets/lifestyle.png'),
         training: require('@/assets/training.png'),
-        
-       
-       
+
+
+
     })
 }
 </script>
 
 <style scoped>
-
-.float-img{
+.float-img {
     position: absolute;
     width: 20%;
 }
-.hospitalityImg{
+
+.hospitalityImg {
     left: 0;
     bottom: 0;
     margin-bottom: 50px;
 }
 
-.lifestyleImg{
-   right: 50%;
-   left: 50%;
+.lifestyleImg {
+    right: 50%;
+    left: 50%;
 }
 
-.trainingImg{
+.trainingImg {
     right: 0;
     bottom: 0;
     margin-bottom: 50px;
 }
-.about-section{
+
+.about-section {
     position: relative;
 }
 
 
 
-.arrow-img{
-   
+.arrow-img {
+
     position: relative;
 }
 
-.arrow-img img{
+.arrow-img img {
     position: absolute;
     width: 10%;
 }
 
-.imgLeft{
+.imgLeft {
     top: 0;
     left: 0;
 }
-.imgRight{
+
+.imgRight {
     top: 0;
     right: 0;
 }
 
 
-section{
+section {
     position: relative;
 }
+
 .about-container {
     min-height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .about-text {
@@ -203,7 +286,7 @@ section{
 .digital {
     background: url("/src/assets/hayche-digital.png");
     background-repeat: no-repeat;
-   
+
 }
 
 .lifestyle {
@@ -249,73 +332,70 @@ section{
     transition: 0.5s ease;
 }
 
-.unit-btn:hover{
+.unit-btn:hover {
     color: var(--light-purple);
     transition: 0.5s ease;
 }
 
 
 /* media query for laptop screens */
-@media only screen and (min-width: 1024px){}
+@media only screen and (min-width: 1024px) {}
 
 /* media query for tablet screens */
-@media only screen and (max-width: 990px){
-    
-}
+@media only screen and (max-width: 990px) {}
 
 /* media query for phones */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .about-text {
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 300;
-    max-width: 700px;
-}
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 300;
+        max-width: 700px;
+    }
 }
 
 /* media query for smaller devices */
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
     .about-text {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 300;
-    max-width: 700px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        max-width: 700px;
+    }
+
+    .float-img {
+
+        width: 30%;
+    }
+
+    .units-container {
+        min-height: 600px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+
+    .units {
+        gap: 10px;
+    }
+
+    .hospitalityImg {
+        left: 0;
+        bottom: 0;
+        margin-bottom: 80px;
+    }
+
+    .lifestyleImg {
+        right: 50%;
+        left: 50%;
+    }
+
+    .trainingImg {
+        right: 0;
+        bottom: 0;
+        margin-bottom: 100px;
+    }
+
+
 }
-.float-img{
-    
-    width: 30%;
-}
-
-.units-container {
-    min-height: 600px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    padding: 10px;
-}
-
-.units {
-    gap: 10px;
-}
-
-.hospitalityImg{
-    left: 0;
-    bottom: 0;
-    margin-bottom: 80px;
-}
-
-.lifestyleImg{
-   right: 50%;
-   left: 50%;
-}
-
-.trainingImg{
-    right: 0;
-    bottom: 0;
-    margin-bottom: 100px;
-}
-
-
-}
-
-
 </style>

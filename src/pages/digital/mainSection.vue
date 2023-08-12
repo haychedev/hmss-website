@@ -1,7 +1,18 @@
 <template>
     <div class="container">
         <section class="heading">
-            <div class="sectionTitle">
+            <div class="sectionTitle" v-motion :initial="{
+                opacity: 0,
+                x: -100,
+            }" :enter="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        type: 'spring',
+        stiffness: '100',
+        delay: 100,
+    },
+}">
                 <h1>hayche digital</h1>
             </div>
         </section>
@@ -162,7 +173,16 @@ export default {
     background: url('/src/assets/digital.png');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    animation: bgMove1 20s infinite;
+    /* transform: var(--transistion); */
 }
+@keyframes bgMove1 {
+    50% {
+        background-position: right;
+    }
+}
+
 
 .heading {
     display: flex;

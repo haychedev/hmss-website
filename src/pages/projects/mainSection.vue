@@ -1,7 +1,18 @@
 <template>
     <div class="container">
         <section class="intro">
-            <div class="sectionTitle">
+            <div class="sectionTitle"  v-motion :initial="{
+                opacity: 0,
+                x: -100,
+            }" :enter="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        type: 'spring',
+        stiffness: '100',
+        delay: 100,
+    },
+}">
                 <h1>hayche development
                     <br> projects
                 </h1>
@@ -95,7 +106,16 @@ export default {
 .container {
     height: 80vh;
     background: url('/src/assets/projects.png');
+    background-repeat: no-repeat;
+    animation: bgMove1 20s infinite;
 }
+
+@keyframes bgMove1 {
+    50% {
+        background-position: center;
+    }
+}
+
 
 .img {
     width: 500px;

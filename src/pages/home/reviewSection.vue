@@ -2,12 +2,34 @@
     <div id="reviews" class="review-container">
         <section>
             <div class="review-heading">
-                <h3>hayche reviews</h3>
+                <h3 v-motion :initial="{
+                opacity: 0,
+                y: -50,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">hayche reviews</h3>
                 <p>Receive reviews of your businesses in several locations straight in your inbox. You’ve worked hard enough
                     for this. Allow us monitor your growth & success.</p>
             </div>
             <div class="review-boxes">
-                <div class="review-box">
+                <div class="review-box" v-motion :initial="{
+                opacity: 0,
+                x: -50,
+            }" :visibleOnce="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <div class="reviewer-img">
                         <img :src=mega>
                     </div>
@@ -19,7 +41,21 @@
                             succeed. We perform surveys, audits.</p>
                     </div>
                 </div>
-                <div class="review-box">
+
+
+                <div class="review-box" v-motion :initial="{
+                opacity: 0,
+                y: -50,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 100,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <div class="reviewer-img">
                         <img :src=eko>
                     </div>
@@ -31,7 +67,21 @@
                             succeed. We perform surveys, audits.</p>
                     </div>
                 </div>
-                <div class="review-box">
+
+
+                <div class="review-box" v-motion :initial="{
+                opacity: 0,
+                x: 50,
+            }" :visibleOnce="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        delay: 200,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <div class="reviewer-img">
                         <img :src=sheraton>
                     </div>

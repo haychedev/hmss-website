@@ -1,26 +1,108 @@
 <template>
     <main class="social-container">
         <section>
-            <h2 class="social-heading">
+            <h2 class="social-heading" v-motion :initial="{
+                opacity: 0,
+                y: -100,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                 Organizations we partnered with
             </h2>
             <div class="social-images">
-                <div class="social-image">
+                <div class="social-image" v-motion :initial="{
+                opacity: 0,
+                y: -50,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <img :src=usaid>
                 </div>
-                <div class="social-image">
+                <div class="social-image" v-motion :initial="{
+                opacity: 0,
+                y: -100,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 100,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <img class="waho" :src=waho>
                 </div>
-                <div class="social-image">
+                <div class="social-image" v-motion :initial="{
+                opacity: 0,
+                y: -100,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 200,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <img :src=ashia>
                 </div>
-                <div class="social-image">
+                <div class="social-image" v-motion :initial="{
+                opacity: 0,
+                y: -100,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 300,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <img :src=esauhc>
                 </div>
-                <div class="social-image">
+                <div class="social-image" v-motion :initial="{
+                opacity: 0,
+                y: -100,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 400,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <img :src=gei>
                 </div>
-                <div class="social-image">
+                <div class="social-image" v-motion :initial="{
+                opacity: 0,
+                y: -100,
+            }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 500,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                     <img :src=northstar>
                 </div>
                 

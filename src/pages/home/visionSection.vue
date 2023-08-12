@@ -29,7 +29,14 @@ export default{
     margin-top: 150px;
     margin-bottom: 150px;
     background-attachment: fixed;
+    animation: bgMove2 10s infinite;
 }
+
+@keyframes bgMove2 {
+        50% {
+            background-position: 50% 100%;
+        }
+    }
 
 .vision-section{
     display: flex;
@@ -90,18 +97,24 @@ margin-bottom: 100px;
     background-position: center center;
     margin-top: 150px;
     margin-bottom: 150px;
+    animation: bgMove5 15s infinite;
 }
 
+@keyframes bgMove5 {
+        50% {
+            background-position: 100%;
+        }
+    }
 
 
 .vision-heading{
     color: var(--light, #F8F8F8);
 text-align: right;
 font-family: Oswald;
-font-size: 100px;
+font-size: 90px;
     font-style: normal;
     font-weight: 400;
-line-height: 50%; 
+line-height: 65%; 
 margin-top: 50px;
 
 }

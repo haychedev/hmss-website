@@ -1,7 +1,18 @@
 <template>
     <section class="cta-section">
         <div class="cta-container">
-            <div class="cta-img">
+            <div class="cta-img" v-motion :initial="{
+                opacity: 0,
+                x: -50,
+            }" :visibleOnce="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
                 <img :src=logo>
             </div>
             <div class="cta-text">

@@ -1,17 +1,28 @@
 <template>
     <div class="container">
         <section class="heading">
-            <div class="sectionTitle">
+            <div class="sectionTitle" v-motion :initial="{
+                opacity: 0,
+                x: -100,
+            }" :enter="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        type: 'spring',
+        stiffness: '100',
+        delay: 100,
+    },
+}">
                 <h1>hayche academy</h1>
             </div>
         </section>
     </div>
     <div class="objectiveContainer">
         <section class="objectiveSection">
-            <div class="goalImg">
+            <div class="goalImg" >
                 <img :src=goalImg>
             </div>
-            <div class="objectiveText">
+            <div class="objectiveText" >
                 <h1>our goal</h1>
                 <h5>Training and placement of hospitality personnel</h5>
 
@@ -23,7 +34,7 @@
             </div>
         </section>
         <section class="objectiveSection obj">
-            <div class="objectiveText">
+            <div class="objectiveText" >
                 <h1>our objective</h1>
                 <h5 class="p-head">Workforce Development</h5>
 
@@ -38,7 +49,7 @@
                 <p>We match candidates with the right positions based on
                     skills</p>
             </div>
-            <div class="objectiveImg">
+            <div class="objectiveImg" >
                 <img :src=objImg>
             </div>
         </section>
@@ -109,8 +120,15 @@ export default {
     background: url('/src/assets/hayche-academy-page.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: 100% 80%;
+    animation: bgMove1 10s infinite;
 }
+
+@keyframes bgMove1 {
+        50% {
+            background-position: 50% 50%;
+        }
+    }
 
 .heading {
     display: flex;
@@ -151,6 +169,17 @@ export default {
     color: var(--light);
 }
 
+.obj{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-bottom: 100px;
+    color: var(--light);
+}
 
 .goalImg {
     width: 400px;
@@ -220,7 +249,15 @@ export default {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    animation: bgMove5 10s infinite;
 }
+
+@keyframes bgMove5 {
+        50% {
+            background-position: 50% 50%;
+        }
+    }
+
 
 .northstar-section {
     display: flex;
@@ -282,9 +319,7 @@ export default {
 }
 
 @media only screen and (max-width: 1126px) {
-    .obj {
-        flex-direction: row-reverse;
-    }
+  
 
     .objectiveSection {
         justify-content: left;
@@ -295,17 +330,27 @@ export default {
     }
 }
 
+
 @media only screen and (max-width: 500px) {
     .note p {
         width: 100%;
     }
 
     .obj {
-        flex-direction: row-reverse;
+       flex-direction: row-reversee;
+       flex-wrap: wrap;
+       /* flex-direction: row; */
     }
 
     .container {
         background-position: center;
+        animation: bgMove6 20s infinite;
+    }
+
+    @keyframes bgMove6 {
+        50% {
+            background-position: 100%;
+        }
     }
 
     .sectionTitle h1 {

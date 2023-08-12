@@ -1,7 +1,18 @@
 <template>
     <div class="container">
         <section>
-            <div class="sectionTitle">
+            <div class="sectionTitle" v-motion :initial="{
+                opacity: 0,
+                x: -100,
+            }" :enter="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        type: 'spring',
+        stiffness: '100',
+        delay: 100,
+    },
+}">
                 <h1>hayche lifestyle</h1>
             </div>
         </section>
@@ -52,7 +63,15 @@ export default{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    animation: bgMove1 20s infinite;
 }
+
+@keyframes bgMove1 {
+    50% {
+        background-position: 100%;
+    }
+}
+
 
 section {
     display: flex;
