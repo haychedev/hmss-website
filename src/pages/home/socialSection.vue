@@ -13,7 +13,7 @@
         ease: 'easeIn',
     },
 }">
-                Organizations we partnered with
+                Organizations we work with
             </h2>
             <div class="social-images">
                 <div class="social-image" v-motion :initial="{

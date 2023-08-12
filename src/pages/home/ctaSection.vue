@@ -20,7 +20,7 @@
                     and help make a positive impact
                     with our innovative training, hospitality and
                     lifestyle services!</h3>
-                <a class="cta-link" href="">sign up</a>
+                <a class="cta-link" href="">sign up<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </div>
     </section>
@@ -104,6 +104,10 @@ margin-top: 50px;
 margin-bottom: 50px;
 padding-bottom: 10px;
 transition: all 3s ease;
+}
+
+.cta-link i{
+    margin-left: 10px;
 }
 
 .cta-link:hover{

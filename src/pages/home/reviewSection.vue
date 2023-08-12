@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="review-link">view more</a>
+            <a href="/reviews" class="review-link">view more</a>
         </section>
     </div>
 </template>

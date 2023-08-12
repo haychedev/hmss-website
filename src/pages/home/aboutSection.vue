@@ -3,7 +3,7 @@
         <section class="about-section">
             <h2 class="about-text" v-motion :initial="{
                 opacity: 0,
-                y: -100,
+                y: -50,
             }" :visibleOnce="{
     opacity: 1,
     y: 0,

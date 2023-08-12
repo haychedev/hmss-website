@@ -21,16 +21,23 @@
         </div>
        
     </header>
+
+    <!-- <RouterView :class="{ 'scrollLock': showNav}" /> -->
+
+    <!-- <RouterView v-scroll-lock = "showNav"/> -->
+
     <DropDown :class="{ big: active }"/>
 
 
     <MobileNavigationMenu :class="{ 'open': showNav }" />
-    <div class="mobile-nav" v-if="mobileView" @click="showNav = !showNav">
-        <div class="mobile-nav-logo" @click="showNav = !showNav">
+
+
+    <div class="mobile-nav" v-if="mobileView" >
+        <div class="mobile-nav-logo" >
             <a href="/"><img class="logo-img" src="../assets/hmss-logo.png" alt="hayche logo"></a>
         </div>
-        <div id="nav-icon" class="nav-icon">
-            <i class="fas fa-bars"></i>
+        <div id="nav-icon" class="nav-icon" @click="showNav = !showNav">
+            <i class="fas fa-bars" :class="{ 'fa fa-times' : showNav}"></i>
         </div>
     </div>
    
@@ -69,7 +76,9 @@ export default {
 </script>
 
 <style scoped>
-
+.scrollLock{
+    overflow-y: hidden;
+}
 .big{
     display: block;
     position: fixed;
