@@ -39,7 +39,7 @@ export default {
 }
 .biz-item{
     color: var(--light);
-    font-size: 20px;
+    font-size: 16px;
     text-transform: capitalize;
 }
 .big{
@@ -72,7 +72,7 @@ export default {
 
 .mobile-nav-link{
     color: var(--light);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
     padding-bottom: 20px;

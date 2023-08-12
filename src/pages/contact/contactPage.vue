@@ -1,6 +1,17 @@
 <template>
   <div class="container">
-    <section class="header">
+    <section class="header" v-motion :initial="{
+                opacity: 0,
+                x: -100,
+            }" :enter="{
+    opacity: 1,
+    x: 0,
+    transition: {
+        type: 'spring',
+        stiffness: '100',
+        delay: 100,
+    },
+}">
       <h3>contact us</h3>
     </section>
   </div>
@@ -46,6 +57,13 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  animation: bgMove1 20s infinite;
+}
+
+@keyframes bgMove1 {
+    50% {
+        background-position: left;
+    }
 }
 
 .header {

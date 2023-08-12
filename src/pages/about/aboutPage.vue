@@ -23,8 +23,15 @@ export default{}
 
 h1{
     font-family: Oswald;
-    font-size: 5rem;
+    font-weight: 300;
+    font-size: 90px;
     text-transform: capitalize;
     color: var(--light);
+}
+
+@media only screen and (max-width: 500px){
+    h1{
+        font-size: 30px;
+    }
 }
 </style>
