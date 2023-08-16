@@ -5,6 +5,7 @@
     <socialSection/>
     <ctaSection/>
     <reviewSection/>
+    <reviewLink/>
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import visionSection from './visionSection.vue'
 import socialSection from './socialSection.vue';
 import ctaSection from './ctaSection.vue';
 import reviewSection from './reviewSection.vue';
+import reviewLink from './reviewLink.vue';
 
 export default {
   components: {
@@ -22,7 +24,8 @@ export default {
     visionSection,
     socialSection,
     ctaSection,
-    reviewSection
+    reviewSection,
+    reviewLink
   },
 };
 </script>

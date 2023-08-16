@@ -14,7 +14,7 @@ import projects from './pages/projects/mainSection.vue';
 import about from './pages/about/aboutPage.vue';
 import contact from './pages/contact/contactPage.vue';
 import network from './pages/network/networkPage.vue';
-import reviews from './pages/reviews/reviewPage.vue';
+import reviews from './pages/reviews/mainSection.vue';
 
 const routes = [
     { path: '/', component: home },
