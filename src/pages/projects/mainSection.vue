@@ -31,13 +31,10 @@
                     way of analyzing the information collected</p>
             </div>
             <div class="text">
-                <p>Hayche Development Projects (HDev) supports
-                    organizations to integrate M&E as a management tool
-                    rather than a donor requirement, and develops
-                    people-driven systems that streamline the way
-                    information is collected in order to save people from
-                    becoming overwhelmed and provide a clear and simple
-                    way of analyzing the information collected</p>
+                <p>Hayche Development Projects (HDev) supports organizations to integrate M&E as a 
+management tool rather than a donor requirement, and develops people-driven systems that 
+streamline the way information is collected in order to save people from becoming overwhelmed 
+and provide a clear and simple way of analyzing the information collected.</p>
             </div>
         </section>
     </div>

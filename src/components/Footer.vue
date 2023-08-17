@@ -32,8 +32,8 @@
 
                     <h3>support</h3>
                     <ul class="footer-links">
-                        <li><a href="" class="footer-link">contact us</a></li>
-                        <li><a href="" class="footer-link">email</a></li>
+                        <li><a href="/contact" class="footer-link">contact us</a></li>
+                        <li><a href="mailto:info@hayche.net" class="footer-link">email</a></li>
                         <li><a href="" class="footer-link">speak with support</a></li>
                     </ul>
 
