@@ -143,13 +143,14 @@
                     facilitated by USAID/Nigeria Monitoring, Evaluation, and Learning (MEL) Support Activity. This was a
                     hybrid training conducted simultaneously in-person, and virtually, with close to 100 participants</p>
                 <br>
-                <p>Hayche Digital in collaboration with USAID/Nigeria Program Office (PRO) conducted a 4-day GIS training,
-                    facilitated by USAID/Nigeria Monitoring, Evaluation, and Learning (MEL) Support Activity. This was a
-                    hybrid training conducted simultaneously in-person, and virtually, with close to 100 participants</p>
+                <p>The Training consisted of a combination of theory and practical applications of GIS through 
+scenarios anchored in everyday GIS use. The theory session covered the fundamentals of GIS, 
+and commonly used terminology, while the hands-on session took participants through 
+importing, Shapefiles, creating, and manipulating layers, and generating thematic maps for print 
+and web</p>
                 <br>
-                <p>Hayche Digital in collaboration with USAID/Nigeria Program Office (PRO) conducted a 4-day GIS training,
-                    facilitated by USAID/Nigeria Monitoring, Evaluation, and Learning (MEL) Support Activity. This was a
-                    hybrid training conducted simultaneously in-person, and virtually, with close to 100 participants</p>
+                <p>The sessions were anchored by Hayche Digital excellent instructors, Olatunde Opeyemi Ayoola, 
+and Owoeye Success Toluwalogo.</p>
             </div>
         </div>
     </section>

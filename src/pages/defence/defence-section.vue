@@ -57,7 +57,7 @@ evidence.html"> <b>Adele Barber</b> (The Telegraph)</a>, and many others. Resear
             reduce the probability that rape will occur.
             In the 1990's, German commissioner <b>Susanne Paul</b> examined
             522 cases of rapes and attempted rapes to see whether fighting
-            back was stratea, Result an
+            back was a strategy, Result and
             success rate. <a href="http://www.zanshin-siegerland.de/Wehren.html"><b>Irène Zeilinger</b></a>
             , director of the NGO Garance, says that data
             they collect indicate a 90% success rate
@@ -81,7 +81,7 @@ agressions-rien-ne
             to reduce risk factors and promote protective factors for
             sexual violence. In addition, comprehensive prevention strategies
             should address factors at each of the levels that influence
-            sexual violencenavidual, relationship, community, and
+            sexual violence in individual, relationship, community, and
             society.</p>
 
         <br>
@@ -174,7 +174,7 @@ agressions-rien-ne
                 program is presently offered only in Abuja and Enugu, trainers
                 interested in implementing TTSS in other locations are invited
                 to be trained and certified,. Upon completion, each certified
-                instructor is provided with the TTS curriculum as well as
+                instructor is provided with the TTS  curriculum as well as
                 ongoing support.</p>
             <br>
             <p>The program has been developed by <b>Andrew Igbo</b> in
