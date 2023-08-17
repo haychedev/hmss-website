@@ -9,7 +9,7 @@
 
 <script></script>
 
-<style>
+<style scoped>
 .container{
     height: 100vh;
     display: flex;
