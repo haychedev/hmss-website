@@ -13,7 +13,7 @@
             </ul>
             <li><a href="/#reviews" class="mobile-nav-link">reviews</a></li>
             <li><a href="/contact" class="mobile-nav-link">contact</a></li>
-            <li><a href="" class="mobile-nav-link">blog</a></li>
+            <li><a href="/blog" class="mobile-nav-link">blog</a></li>
         </ul>
     </div>
 </template>

@@ -15,6 +15,7 @@ import about from './pages/about/aboutPage.vue';
 import contact from './pages/contact/contactPage.vue';
 import network from './pages/network/networkPage.vue';
 import reviews from './pages/reviews/mainSection.vue';
+import blog from './pages/blog/blogPage.vue';
 
 const routes = [
     { path: '/', component: home },
@@ -26,6 +27,7 @@ const routes = [
     { path: '/contact', component: contact },
     { path: '/network', component: network },
     { path: '/reviews', component: reviews },
+    { path: '/blog', component: blog },
 ];
 
 const router = createRouter({

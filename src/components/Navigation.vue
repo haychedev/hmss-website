@@ -13,7 +13,7 @@
                 <li  @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="nav-link">Business Units</li>
                 <li class="nav-link"><a href="/#reviews">Reviews</a></li>
                 <li class="nav-link"><a href="/contact">Contact</a></li>
-                <li class="nav-link"><a href="">Blog</a></li>
+                <li class="nav-link"><a href="/blog">Blog</a></li>
             </ul>
         </div>
         <div class="navCta">
