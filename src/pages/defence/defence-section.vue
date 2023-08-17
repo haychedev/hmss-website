@@ -48,11 +48,11 @@ issues/escape-from-rapist)"><b>Keri Potts ("How I Escaped a
 Mother-bit-Of-sex-attackers-tonaue-to-secure-DiNA-
 evidence.html"> <b>Adele Barber</b> (The Telegraph)</a>, and many others. Research conducted since
             the 70s has consistently supported the conclusion that fighting
-            back is actual the most effective strateav to thwart sexual
+            back is actual the most effective strategy to thwart sexual
             assaults.
             Studies such as Kleck & Tark (2005) or Reekie & Wilson
             (1993) or Ullman & Knight (1992), provide sufficient evidence
-            to support the tact that women who respond with ohvsical and
+            to support the fact that women who respond with phvsical and
             verbal resistance to the offender's violent attack significantly
             reduce the probability that rape will occur.
             In the 1990's, German commissioner <b>Susanne Paul</b> examined
@@ -71,7 +71,7 @@ agressions-rien-ne
         <p>Violence, especially of a sexual nature is a serious problem
             that can have lasting, harmful effects on victims, their family,
             friends, and communities. The goal of sexual violence prevention
-            is simple- to stop it from happening in the first place. The
+            is simple, to stop it from happening in the first place. The
             solutions, however, are just as complex as the problem.</p>
 
         <br>
@@ -177,7 +177,7 @@ agressions-rien-ne
                 instructor is provided with the TTS curriculum as well as
                 ongoing support.</p>
             <br>
-            <p>The program has been developed by Andrew Igbo in
+            <p>The program has been developed by <b>Andrew Igbo</b> in
                 collaboration with a number of international martial arts
                 experts. Andrew Igbo has over 30 years experience training
                 and teaching martial arts and self defense to diverse populations.</p>
