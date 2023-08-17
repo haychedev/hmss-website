@@ -22,13 +22,10 @@
     <div class="text-box-container">
         <section class="text-box">
             <div class="text">
-                <p>Hayche Development Projects (HDev) supports
-                    organizations to integrate M&E as a management tool
-                    rather than a donor requirement, and develops
-                    people-driven systems that streamline the way
-                    information is collected in order to save people from
-                    becoming overwhelmed and provide a clear and simple
-                    way of analyzing the information collected</p>
+                <p>Monitoring and Evaluation of development activities provides government officials, 
+development managers, and civil society with better means for learning from past experience, 
+improving service delivery, planning and allocating resources, and demonstrating results as part 
+of accountability to key stakeholders.</p>
             </div>
             <div class="text">
                 <p>Hayche Development Projects (HDev) supports organizations to integrate M&E as a 
