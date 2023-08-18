@@ -14,8 +14,8 @@
         ease: 'easeIn',
     },
 }">hayche reviews</h3>
-                <p>Receive reviews of your businesses in several locations straight in your inbox. You’ve worked hard enough
-                    for this. Allow us monitor your growth & success.</p>
+                <!-- <p>Receive reviews of your businesses in several locations straight in your inbox. You’ve worked hard enough
+                    for this. Allow us monitor your growth & success.</p> -->
             </div>
             <div class="review-boxes">
 
