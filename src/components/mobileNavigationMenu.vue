@@ -8,7 +8,7 @@
                <a href="projects"><li class="biz-item">hayche development</li></a>
                <a href="/digital"><li class="biz-item">hayche digital</li></a>
                <a href="/lifestyle"><li class="biz-item">hayche lifestyle</li></a>
-               <a href="/network"><li class="biz-item">hayche network</li></a>
+               <a href="https://hayche-website.pages.dev/" target="blank"><li class="biz-item">hayche network</li></a>
               
             </ul>
             <li><a href="/#reviews" class="mobile-nav-link">reviews</a></li>

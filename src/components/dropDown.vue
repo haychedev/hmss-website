@@ -6,7 +6,7 @@
             <a href="/projects"><li class="dropdown-link">hayche development</li></a>
             <a href="/digital"><li class="dropdown-link">hayche digital</li></a>
             <a href="/lifestyle"><li class="dropdown-link">hayche lifestyle</li></a>
-            <a href="/network"><li class="dropdown-link">hayche network</li></a>
+            <a href="https://hayche-website.pages.dev/" target="blank"><li class="dropdown-link">hayche network</li></a>
         </ul>
     </div>
 
