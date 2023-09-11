@@ -16,18 +16,22 @@ import contact from './pages/contact/contactPage.vue';
 import network from './pages/network/networkPage.vue';
 import reviews from './pages/reviews/mainSection.vue';
 import blog from './pages/blog/blogPage.vue';
+import toc from './pages/toc/mainSection.vue';
+import privacy from './pages/privacy/privacyPage.vue';
 
 const routes = [
     { path: '/', component: home },
-    { path: '/academy', component: academy },
-    { path: '/digital', component: digital },
-    { path: '/lifestyle', component: lifestyle },
-    { path: '/projects', component: projects },
+    { path: '/hayche-academy', component: academy },
+    { path: '/hayche-digital', component: digital },
+    { path: '/hayche-lifestyle', component: lifestyle },
+    { path: '/hayche-projects', component: projects },
     { path: '/about', component: about },
     { path: '/contact', component: contact },
-    { path: '/network', component: network },
+    { path: '/hayche-network', component: network },
     { path: '/reviews', component: reviews },
     { path: '/blog', component: blog },
+    { path: '/t&c', component: toc },
+    { path: '/privacy', component: privacy },
 ];
 
 const router = createRouter({

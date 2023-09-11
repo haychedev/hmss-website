@@ -148,10 +148,12 @@ export default {
 }
 
 .heading {
-    font-size: 90px;
+    font-size: 60px;
     font-family: Oswald;
     font-weight: 400;
     color: var(--dull-black);
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .wrapper p {

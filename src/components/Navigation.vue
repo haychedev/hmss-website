@@ -8,7 +8,7 @@
         </div>
         <div class="header-left">
             <ul class="nav-links">
-               <li class="nav-link"><a href="/about">About Us</a></li>
+               <!-- <li class="nav-link"><a href="/about">About Us</a></li> -->
                 <!-- <li class="nav-link"><a href="">Business Units</a></li> -->
                 <li  @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="nav-link">Business Units</li>
                 <li class="nav-link"><a href="/#reviews">Reviews</a></li>

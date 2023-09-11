@@ -12,8 +12,8 @@
                     </p>
                 </div>
                 <div class="footer-socials">
-                    <a href=""><img :src=instagram></a>
-                    <a href=""><img :src=whatsapp></a>
+                    <a href="https://www.instagram.com/hayche_management/"><img :src=instagram></a>
+                    <a href="https://wa.link/b9kj9m"><img :src=whatsapp></a>
                     <a href=""><img :src=facebook></a>
                 </div>
             </div>
@@ -34,7 +34,8 @@
                     <ul class="footer-links">
                         <li><a href="/contact" class="footer-link">contact us</a></li>
                         <li><a href="mailto:info@hayche.net" class="footer-link">email</a></li>
-                        <li><a href="" class="footer-link">speak with support</a></li>
+                        <li><a href="tel:+2349075399524" class="footer-link">speak with support</a></li>
+                        <a href=""></a>
                     </ul>
 
                 </div>
@@ -42,8 +43,8 @@
 
                     <h3>legal</h3>
                     <ul class="footer-links">
-                        <li><a href="" class="footer-link">privacy policy</a></li>
-                        <li><a href="" class="footer-link">terms of service</a></li>
+                        <li><a href="/privacy" class="footer-link">privacy policy</a></li>
+                        <li><a href="/t&c" class="footer-link">terms of service</a></li>
                         
                     </ul>
 

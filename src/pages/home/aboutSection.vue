@@ -49,7 +49,7 @@
                     hospitality personnel,
                     By providing comprehensive...
                 </p>
-                <a href="academy" class="unit-btn">read more</a>
+                <a href="/hayche-academy" class="unit-btn">read more</a>
 
             </div>
 
@@ -74,7 +74,7 @@
                     Monitoring and Evaluation of development
                     activities provides government officials...
                 </p>
-                <a href="/projects" class="unit-btn">read more</a>
+                <a href="/hayche-projects" class="unit-btn">read more</a>
 
             </div>
 
@@ -99,7 +99,7 @@
                     Hayche Digital develops custom solutions
                     that take into account cultural and geographic...
                 </p>
-                <a href="/digital" class="unit-btn">read more</a>
+                <a href="/hayche-digital" class="unit-btn">read more</a>
             </div>
 
 
@@ -124,7 +124,7 @@
                     Promoting tourism within Africa, Showcasing
                     the African culture
                 </p>
-                <a href="/lifestyle" class="unit-btn">read more</a>
+                <a href="/hayche-lifestyle" class="unit-btn">read more</a>
             </div>
 
 
@@ -148,7 +148,7 @@
                     A platform where hospitality establishments,
                     independent consultants, and job seekers can...
                 </p>
-                <a href="/network" class="unit-btn">read more</a>
+                <a href="https://hayche-website.pages.dev/"  target="blank" class="unit-btn">read more</a>
             </div>
         </section>
     </main>
