@@ -71,8 +71,6 @@
     </section>
 
     <section>
-        <br>
-        <br>
         <h5>Monitoring violence against key populations</h5>
         <br>
         <p>HDev developed on behalf of Linkages across the Continuum of HIV Services for Key
@@ -87,6 +85,7 @@
             percentage of victims who test for HIV as well as the percentage of those who test
             positive.
         </p>
+        <br>
         <br>
         <h5>Evaluating the positive masculinity (+M) program</h5>
         <br>
