@@ -2,7 +2,7 @@
     <div class="wrapper">
         <section>
             <div class="header">
-                <h2>women risk reduction program</h2>
+                <h2>violence risk reduction program</h2>
                 <div class="img">
                     <div class="text">
                         <p>We now know

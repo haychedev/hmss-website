@@ -17,9 +17,9 @@
             </h2>
             <div class="social-images">
                 <div class="social-image" v-motion :initial="{
-                opacity: 0,
-                y: -50,
-            }" :visibleOnce="{
+                    opacity: 0,
+                    y: -50,
+                }" :visibleOnce="{
     opacity: 1,
     y: 0,
     transition: {
@@ -31,9 +31,9 @@
                     <img :src=usaid>
                 </div>
                 <div class="social-image" v-motion :initial="{
-                opacity: 0,
-                y: -100,
-            }" :visibleOnce="{
+                    opacity: 0,
+                    y: -100,
+                }" :visibleOnce="{
     opacity: 1,
     y: 0,
     transition: {
@@ -46,9 +46,9 @@
                     <img class="waho" :src=waho>
                 </div>
                 <div class="social-image" v-motion :initial="{
-                opacity: 0,
-                y: -100,
-            }" :visibleOnce="{
+                    opacity: 0,
+                    y: -100,
+                }" :visibleOnce="{
     opacity: 1,
     y: 0,
     transition: {
@@ -61,9 +61,9 @@
                     <img :src=ashia>
                 </div>
                 <div class="social-image" v-motion :initial="{
-                opacity: 0,
-                y: -100,
-            }" :visibleOnce="{
+                    opacity: 0,
+                    y: -100,
+                }" :visibleOnce="{
     opacity: 1,
     y: 0,
     transition: {
@@ -76,9 +76,9 @@
                     <img :src=esauhc>
                 </div>
                 <div class="social-image" v-motion :initial="{
-                opacity: 0,
-                y: -100,
-            }" :visibleOnce="{
+                    opacity: 0,
+                    y: -100,
+                }" :visibleOnce="{
     opacity: 1,
     y: 0,
     transition: {
@@ -91,9 +91,9 @@
                     <img :src=gei>
                 </div>
                 <div class="social-image" v-motion :initial="{
-                opacity: 0,
-                y: -100,
-            }" :visibleOnce="{
+                    opacity: 0,
+                    y: -100,
+                }" :visibleOnce="{
     opacity: 1,
     y: 0,
     transition: {
@@ -105,7 +105,23 @@
 }">
                     <img :src=northstar>
                 </div>
-                
+
+                <div class="social-image" v-motion :initial="{
+                    opacity: 0,
+                    y: -100,
+                }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 500,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
+                    <img :src=ooad>
+                </div>
+
             </div>
         </section>
     </main>
@@ -122,7 +138,8 @@ export default {
         esauhc: require('@/assets/esauhc.png'),
         gei: require('@/assets/gei.png'),
         northstar: require('@/assets/northstar.png'),
-        
+        ooad: require('@/assets/ooad.jpg'),
+
     })
 }
 </script>
@@ -131,7 +148,7 @@ export default {
 .social-container {
     margin-top: 100px;
     margin-bottom: 100px;
-    
+
 }
 
 .social-heading {
@@ -147,75 +164,73 @@ export default {
     margin-bottom: 100px;
 }
 
-.social-images{
+.social-images {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
 }
 
-.social-image{
+.social-image {
     width: 150px;
     height: 150px;
 
 }
 
-.social-image img{
+.social-image img {
     width: 100%;
     filter: grayscale(100%);
     transition: all 0.5s ease;
+    mix-blend-mode: multiply;
 }
-.social-image img:hover{
+
+.social-image img:hover {
     width: 100%;
     filter: grayscale(0%);
     transition: all 0.5s ease;
 }
 
-.waho{
+.waho {
     width: 30%;
 }
 
 /* media query for laptop screens */
-@media only screen and (min-width: 1024px){
-
-}
+@media only screen and (min-width: 1024px) {}
 
 /* media query for tablet screens */
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 990px) {
     .social-heading {
-    color: var(--dull-black);
-    font-family: Oswald;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 97.5%;
-    /* 46.8px */
-    letter-spacing: 0.48px;
-    text-align: center;
-    margin-bottom: 100px;
-}
+        color: var(--dull-black);
+        font-family: Oswald;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 97.5%;
+        /* 46.8px */
+        letter-spacing: 0.48px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
 }
 
 /* media query for phones */
-@media only screen and (max-width: 768px){
-
-}
+@media only screen and (max-width: 768px) {}
 
 /* media query for smaller devices */
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
     .social-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-}
+        margin-top: 50px;
+        margin-bottom: 50px;
 
-.social-heading{
-    font-size: 30px;
-    
-    
-}
+    }
+
+    .social-heading {
+        font-size: 30px;
+
+
+    }
 
 }
 </style>

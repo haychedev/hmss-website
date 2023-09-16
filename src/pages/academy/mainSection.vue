@@ -19,10 +19,10 @@
     </div>
     <div class="objectiveContainer">
         <section class="objectiveSection">
-            <div class="goalImg" >
+            <div class="goalImg">
                 <img :src=goalImg>
             </div>
-            <div class="objectiveText" >
+            <div class="objectiveText">
                 <h1>our goal</h1>
                 <h5>Training and placement of hospitality personnel</h5>
 
@@ -34,7 +34,7 @@
             </div>
         </section>
         <section class="objectiveSection obj">
-            <div class="objectiveText" >
+            <div class="objectiveText">
                 <h1>our objective</h1>
                 <h5 class="p-head">Workforce Development</h5>
 
@@ -49,11 +49,87 @@
                 <p>We match candidates with the right positions based on
                     skills</p>
             </div>
-            <div class="objectiveImg" >
+            <div class="objectiveImg">
                 <img :src=objImg>
             </div>
         </section>
     </div>
+
+    <section class="info">
+        <p>Hayche Academy (HA) specializes in preparing individuals for a career in the hospitality
+            industry. The Academy together with The Network, provide an integrated human
+            resource service that supports our clients in the effective management of human
+            resources. No matter the type of facility, managing human resources effectively is
+            essential to productivity, and profitability. We help bars, clubs, hotels, restaurants, and
+            practically any business to identify the best candidates for various positions as well as
+            assist with training programs, payroll, and benefits packages.</p>
+
+        <br>
+        <br>
+
+        <p>HA has established a convenient, scalable hospitality training and skills certification
+            model that is industry driven, sector specific, nationally recognized and promotes career
+            ladders. The Hospitality industry remains one of the fastest growing in the world, which
+            employs millions of people round-the-clock. Due to the rapid growth of this sector, there
+            is a huge unmet demand for staff.</p>
+
+        <br>
+        <br>
+
+        <p>Many jobseekers submit their CV to a hotel, or restaurant, because they may not have
+            received a response from the other places to which they applied. Chances are that
+            working in a hotel or restaurant was perhaps not their first choice. This is the vicious
+            cycle that operates in the hospitality sector. Many young people approach working in a
+            hospitality establishment as temporary employment, which results in many hotels and
+            restaurants operating as a “revolving door”, where employees come and go frequently.
+            This high turnover is the reason employers in the hospitality sector remain reluctant to
+            invest in staff training and development, which leads to poor, or substandard service,
+            and thereby reinforcing the vicious cycle. Hayche Academy is breaking this cycle
+            through our successful #StartACareerInHospitality campaign; over 5,000 youth currently
+            enrolled across several states!</p>
+
+        <br>
+        <br>
+
+        <p>The goal of the #StartACareerInHospitality campaign is to encourage and support the
+            mass of unemployed youth to start careers in hospitality, and thereby provide a constant
+            supply of qualified personnel to a rapidly growing hospitality industry. This ready pool of
+            hospitality professionals are part of The Hayche Network of professionals, that is
+            revolutionizing the way hospitality establishments source, and recruit labor.
+        </p>
+
+
+        <br>
+        <br>
+
+        <h3>The Hayche virtual classroom/community</h3>
+
+        <p>The Hayche virtual classroom / community is comprised of Hayche Network hospitality
+            experts, who ensure that trainees receive adequate mentoring and answers whenever
+            they have questions. The virtual classroom / community setting is able to provide a
+            sophisticated degree of interaction that fosters exploration and learning of content
+            interactively through face-to-face communication that utilizes features available on most
+            mobile devices.</p>
+
+
+        <br>
+        <br>
+
+        <h3>Hayche Academy workforce development program</h3>
+
+        <p>The objective of Hayche Academy workforce development program is to create 
+economic prosperity for individuals, businesses, and communities.</p>
+<br>
+<p>The program focuses on an individual’s ability to grow their skills and develop the tools 
+they need for business success. In other words, our program trains individuals to be 
+more productive and prosperous in the workplace, which benefits both the employer 
+and the employee,</p>
+
+
+
+
+    </section>
+
     <div class="northstar-info">
         <section class="northstar-section">
             <div class="northstar-text">
@@ -94,7 +170,7 @@
     <section class="note">
         <p>Please note that in order to be awarded a certificate and/or digital badge when you pass the assessment, you must
             undergo proctored assessment at the Hayche Academy computer labs located in Abuja, and Enugu. Alternately, a
-            remote proctored assessment may be arranged</p>
+            remote proctored assessment may be arranged.</p>
     </section>
 </template>
 <script>
@@ -111,6 +187,18 @@ export default {
 }
 </script>
 <style scoped>
+.info h3 {
+    font-family: Oswald;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.info {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .how-to-text ul li {
     text-transform: capitalize;
 }
@@ -125,10 +213,10 @@ export default {
 }
 
 @keyframes bgMove1 {
-        50% {
-            background-position: 50% 50%;
-        }
+    50% {
+        background-position: 50% 50%;
     }
+}
 
 .heading {
     display: flex;
@@ -169,7 +257,7 @@ export default {
     color: var(--light);
 }
 
-.obj{
+.obj {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -225,7 +313,7 @@ export default {
     font-size: 22px;
     margin-bottom: 10px;
     font-weight: 500;
-   
+
 }
 
 .objectiveText p {
@@ -253,10 +341,10 @@ export default {
 }
 
 @keyframes bgMove5 {
-        50% {
-            background-position: 50% 50%;
-        }
+    50% {
+        background-position: 50% 50%;
     }
+}
 
 
 .northstar-section {
@@ -319,7 +407,7 @@ export default {
 }
 
 @media only screen and (max-width: 1126px) {
-  
+
 
     .objectiveSection {
         justify-content: left;
@@ -337,9 +425,9 @@ export default {
     }
 
     .obj {
-       flex-direction: row-reversee;
-       flex-wrap: wrap;
-       /* flex-direction: row; */
+        flex-direction: row-reversee;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
     }
 
     .container {
