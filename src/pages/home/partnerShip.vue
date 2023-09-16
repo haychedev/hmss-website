@@ -175,4 +175,10 @@ p {
     font-size: 20px;
     text-align: center;
 }
+
+@media only screen and (max-width: 500px){
+    p{
+        font-size: 18px;
+    }
+}
 </style>
