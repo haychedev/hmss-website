@@ -140,7 +140,7 @@
         <h3 class="g-head">Hayche Development Projects hosted a
             session on Remote Monitoring as part of
             the gLOCAL Evaluation week, 2022</h3>
-        <div class="im">
+        <div class="img">
             <img :src=img5>
         </div>
         <p>For many years, project managers, especially those implementing programs in high-risk
@@ -352,11 +352,16 @@ h5{
 @media only screen and (max-width: 500px) {
     .img {
         width: 300px;
-        height: 400px;
+        height: 200px;
     }
 
     .gbv-container h3, .g-head {
         font-size: 25px;
+    }
+
+    .im {
+        width: 300px;
+        height: 300px;
     }
 }
 </style>
