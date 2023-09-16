@@ -2,6 +2,7 @@
     <heroSection/>
     <aboutSection/>
     <visionSection/>
+    <PartnerShip/>
     <socialSection/>
     <ctaSection/>
     <reviewSection/>
@@ -16,6 +17,8 @@ import socialSection from './socialSection.vue';
 import ctaSection from './ctaSection.vue';
 import reviewSection from './reviewSection.vue';
 import reviewLink from './reviewLink.vue';
+import PartnerShip from './partnerShip.vue';
+
 
 export default {
   components: {
@@ -25,7 +28,8 @@ export default {
     socialSection,
     ctaSection,
     reviewSection,
-    reviewLink
-  },
+    reviewLink,
+    PartnerShip
+},
 };
 </script>

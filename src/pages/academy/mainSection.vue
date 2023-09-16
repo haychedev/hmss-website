@@ -91,7 +91,7 @@
         <br>
         <br>
 
-        <p>The goal of the #StartACareerInHospitality campaign is to encourage and support the
+        <p>The goal of the <span>#StartACareerInHospitality</span> campaign is to encourage and support the
             mass of unemployed youth to start careers in hospitality, and thereby provide a constant
             supply of qualified personnel to a rapidly growing hospitality industry. This ready pool of
             hospitality professionals are part of The Hayche Network of professionals, that is
@@ -133,7 +133,7 @@ and the employee,</p>
     <div class="northstar-info">
         <section class="northstar-section">
             <div class="northstar-text">
-                <h3>Our Partnership with northstar</h3>
+                <h3>Our Partnership with Northstar</h3>
                 <p>The Hayche Academy in partnership with Northstar, provides online, self-guided assessments that evaluate
                     skill levels in 15 areas. Individuals who undergo proctored assessments at the Hayche Academy computer
                     labs located in Abuja, and Enugu will receive certificates and/or digital badges when they pass the
@@ -194,6 +194,9 @@ export default {
     font-size: 30px;
 }
 
+p span{
+    color: var(--light-purple);
+}
 .info {
     margin-top: 100px;
     margin-bottom: 100px;

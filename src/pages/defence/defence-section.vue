@@ -5,22 +5,11 @@
                 <h2>violence risk reduction program</h2>
                 <div class="img">
                     <div class="text">
-                        <p>We now know
-                            that
-                            giving women the right
-                            skills, and building the
-                            confidence that they
-                            can use them. does
-                            decrease
-                            their
-                            experience with sexual
-                            violence. This is our
-                            best short-term
-                            strategy while we wait
-                            for cultural change</p>
+                        <p>"It is true that a victim who fights back may suffer for it, but one who does not almost
+                            certainly will suffer for it"</p>
                         <br>
                         <h4>
-                            charlene senn
+                            Jeff Cooper
                         </h4>
                     </div>
                     <img :src=img1>
@@ -28,7 +17,7 @@
             </div>
         </section>
     </div>
-    <section class="container">
+    <!-- <section class="container">
         <h3>we offer empowerment through self defence</h3>
         <p class="bold">Is self defense training really an effective deterrent
             to sexual violence?</p>
@@ -106,8 +95,9 @@ agressions-rien-ne
                 <p><b>Jocelyn Hollander</b>, professor of sociology who studied
                     violence against women, recently ran an experiment to
                     assess the effectiveness of self-defence training for women.
-                   <a href=" http://cascade.uoregon.edu/spring2013/social-
-                    sciences/are-women-safer-when-they-learn-self-defense/">read here</a></p>
+                    <a href=" http://cascade.uoregon.edu/spring2013/social-
+                    sciences/are-women-safer-when-they-learn-self-defense/">read here</a>
+                </p>
                 <br>
                 <p>The results of her study indicate that "women who took
                     a ten-week (30hrs) self-defence training were significantly
@@ -126,7 +116,36 @@ agressions-rien-ne
             risk
             reduction program that trains women and girls to avoid
             becoming victims of violence.</p>
-        </section>
+    </section> -->
+
+    <section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>The Train Tough Smart Safe (TTSS) is a violence risk reduction program that trains 
+women and girls to avoid becoming victims of violence. While risk reduction approaches 
+do not address the underlying conditions or causes of sexual violence, they are 
+considered to be valuable within a continuum of prevention efforts. Recent research has 
+built a case to support the effectiveness of programs such as TTSS at thwarting 
+physical assault, and providing a sense of empowerment to women.</p>
+<br>
+<p>The TTSS program is implemented in Nigeria by Hayche Lifestyle (HL). HL is committed 
+to promoting the safety, wellbeing, and quality of life of women and girls. While the 
+program is presently offered only in Abuja and Enugu, trainers interested in 
+implementing TTSS in other locations are invited to be trained and certified. Upon 
+completion, each certified instructor is provided with the TTSS curriculum as well as 
+ongoing support.</p>
+<br>
+<p>The program has been developed by Andrew Igbo in collaboration with a number of 
+international martial arts experts. Andrew Igbo has over 30 years of experience training 
+and teaching martial arts and self-defense to diverse populations around the world.</p>
+<br>
+        <br>
+        <br>
+        <br>
+    </section>
+
     <div class="img-bg">
         <h2>our promise</h2>
         <p>Every student will
@@ -140,7 +159,9 @@ agressions-rien-ne
             gains on the journey
             will transform her life</p>
     </div>
-    <section>
+
+    
+    <!-- <section>
         <br>
         <p>While risk reduction approaches do not address the underlying
             conditions or causes of sexual violence, they are considered
@@ -174,7 +195,7 @@ agressions-rien-ne
                 program is presently offered only in Abuja and Enugu, trainers
                 interested in implementing TTSS in other locations are invited
                 to be trained and certified,. Upon completion, each certified
-                instructor is provided with the TTS  curriculum as well as
+                instructor is provided with the TTS curriculum as well as
                 ongoing support.</p>
             <br>
             <p>The program has been developed by <b>Andrew Igbo</b> in
@@ -182,7 +203,7 @@ agressions-rien-ne
                 experts. Andrew Igbo has over 30 years experience training
                 and teaching martial arts and self defense to diverse populations.</p>
         </div>
-    </section>
+    </section> -->
 </template>
 <script>
 export default {
@@ -318,7 +339,7 @@ a {
     text-transform: capitalize;
 }
 
-.info{
+.info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -328,71 +349,77 @@ a {
     gap: 30px;
 }
 
-.info-text{
-    width: 400px;
-}
-.info-img{
+.info-text {
     width: 400px;
 }
 
-.info-img{
+.info-img {
+    width: 400px;
+}
+
+.info-img {
     width: 400px;
 
 }
 
-.info-img img{
+.info-img img {
     width: 100%;
 }
 
-@media only screen and (max-width: 768px){
-    .header h2{
+@media only screen and (max-width: 768px) {
+    .header h2 {
         font-size: 40px;
     }
-    .text{
+
+    .text {
         width: 70%;
     }
+
     .img-bg {
-    
-    padding: 50px 50px;
-    
-}
-.text{
-    width: 80%;
-}
-.container{
-    width: 80%;
-}
+
+        padding: 50px 50px;
+
+    }
+
+    .text {
+        width: 80%;
+    }
+
+    .container {
+        width: 80%;
+    }
 }
 
-@media only screen and (max-width: 500px){
-    .header h2{
+@media only screen and (max-width: 500px) {
+    .header h2 {
         font-size: 35px;
     }
+
     .container h3 {
-  
-    font-size: 30px;
-    
-}
-.img-bg {
-    
-    padding: 50px 20px;
-    background: url('/src/assets/defence-mobile.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 
-.text{
-    width: 80%;
-}
+        font-size: 30px;
 
-.container{
-    width: 100%;
-}
+    }
 
-.img-bg p{
-    width: 90%;
-}
+    .img-bg {
 
-}
-</style>
+        padding: 50px 20px;
+        background: url('/src/assets/defence-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .text {
+        width: 80%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .img-bg p {
+        width: 90%;
+    }
+
+}</style>

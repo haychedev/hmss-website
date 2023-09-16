@@ -44,6 +44,7 @@
         </div>
     </section>
     <DefenceSection/>
+
 </template>
 <script>
 import DefenceSection from '../defence/defence-section.vue';
