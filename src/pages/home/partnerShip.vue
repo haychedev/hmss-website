@@ -11,7 +11,7 @@
         type: 'keyframes',
         ease: 'easeIn',
     },
-}">our partnership</h3>
+}">partnerships</h3>
         <p>At HMSS, we understand that strategic partnerships and alliances are the foundation for
             success. We provide consulting services around the world through carefully selected
             local partners. The resulting synergies has enabled us to develop sustainable solutions
