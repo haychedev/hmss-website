@@ -30,22 +30,23 @@
 
         <div class="objectiveText">
             <h1>our objective</h1>
-          
-            <p>Promoting wellness, tourism and showcasing the African culture.</p>
-              
-            
+
+            <ul>
+                <li>Promoting wellness, tourism and showcasing the African culture.</li>
+                <li>Encourage cultural exchange between professionals.</li>
+            </ul>
+
         </div>
         <div class="objectiveImg">
             <img :src=img1>
         </div>
     </section>
-    <DefenceSection/>
-
+    <DefenceSection />
 </template>
 <script>
 import DefenceSection from '../defence/defence-section.vue';
 
-export default{
+export default {
     data: () => ({
         img1: require('@/assets/africa.jpg'),
         img2: require('@/assets/africa-culture.jpg'),
@@ -94,11 +95,11 @@ section {
 .objectiveImg {
     width: 400px;
     height: 410px;
-   
-   
+
+
 }
 
-.objectiveImg img{
+.objectiveImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;

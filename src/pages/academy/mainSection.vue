@@ -57,6 +57,8 @@
     </div>
 
     <section class="info">
+
+        <h2>about hayche academy</h2>
         <p>Hayche Academy (HA) specializes in preparing individuals for a career in the hospitality
             industry. The Academy together with The Network, provide an integrated human
             resource service that supports our clients in the effective management of human
@@ -184,6 +186,10 @@
         <p>Please note that in order to be awarded a certificate and/or digital badge when you pass the assessment, you must
             undergo proctored assessment at the Hayche Academy computer labs located in Abuja, and Enugu. Alternately, a
             remote proctored assessment may be arranged.</p>
+
+            <br>
+            <br>
+            <button>Take a free assessment</button>
     </section>
 </template>
 <script>
@@ -217,6 +223,15 @@ p span {
 .info {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.info h2{
+    font-family: Oswald;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .how-to-text ul li {
@@ -460,7 +475,7 @@ button:hover{
 }
 
 li {
-    list-style-type: none;
+    list-style-type: circle;
     margin-bottom: 10px;
 }
 

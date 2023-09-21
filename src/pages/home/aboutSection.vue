@@ -14,7 +14,8 @@
     },
 }">
                 Hayche Multi Service Solutions (HMSS)
-                is a management consulting firm comprised of the following business units
+                is a consulting firm comprised of five business units: Hayche Academy (HA); Hayche Development (HDev);
+                Hayche Digital (HD); Hayche Lifestyle (HLife), and Hayche Network (HN)
             </h2>
             <!-- <img class="float-img hospitalityImg" :src=hospitality>
             <img class="float-img trainingImg" :src=training>
@@ -27,7 +28,7 @@
         </section>
     </main>
     <section class="business-units">
-        <h2>Our Business Units</h2>
+        <!-- <h2>Our Business Units</h2> -->
     </section>
     <main class="units-container">
         <section class="units">
@@ -151,7 +152,7 @@
                     A platform where hospitality establishments,
                     independent consultants, and job seekers can...
                 </p>
-                <a href="https://hayche-website.pages.dev/"  target="blank" class="unit-btn">read more</a>
+                <a href="https://hayche-website.pages.dev/" target="blank" class="unit-btn">read more</a>
             </div>
         </section>
     </main>
@@ -174,20 +175,20 @@ export default {
 </script>
 
 <style scoped>
-
-.business-units{
+.business-units {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.business-units h2{
+.business-units h2 {
     font-family: Oswald;
     font-size: 30px;
     font-weight: 300;
     color: var(--dull-black);
 }
+
 .float-img {
     position: absolute;
     width: 20%;
@@ -258,7 +259,7 @@ section {
     font-weight: 300;
     line-height: normal;
     text-transform: capitalize;
-    max-width: 700px;
+    max-width: 800px;
 }
 
 .units-container {
