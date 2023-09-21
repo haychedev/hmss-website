@@ -17,6 +17,7 @@
                     <br> projects
                 </h1>
             </div>
+            <button>make impact with us</button>
         </section>
     </div>
     <div class="text-box-container">
@@ -38,7 +39,7 @@
     <div class="wrapper">
         <section class="objectiveContainer">
             <div class="objectiveImg">
-                <img :src=img2>
+                <img :src=img6>
             </div>
             <div class="objectiveText">
                 <h1>our goal</h1>
@@ -151,8 +152,13 @@
             mixed results.
         </p>
     </section>
+
+    <socialSection/>
 </template>
 <script>
+
+import socialSection from '../home/socialSection.vue';
+
 export default {
     data: () => ({
         img1: require('@/assets/dev-plan.jpg'),
@@ -160,7 +166,11 @@ export default {
         img3: require('@/assets/hdev.png'),
         img4: require('@/assets/gbv2.png'),
         img5: require('@/assets/glocal.png'),
-    })
+        img6: require('@/assets/goal-dev.jpg'),
+    }),
+    components: {
+    socialSection,
+},
 }
 </script>
 <style scoped>
@@ -214,6 +224,8 @@ h5{
 
 .intro {
     display: flex;
+    flex-direction: column;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     /* border: 1px solid red; */
@@ -221,6 +233,20 @@ h5{
     width: 100%;
 }
 
+button {
+    padding: 10px 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: var(--light);
+    font-weight: 500;
+    transition: 0.5s ease all;
+    /* color: var(--light); */
+}
+
+button:hover{
+    background: var(--dark-purple);
+    color: var(--light);
+}
 .sectionTitle h1 {
     color: var(--light, #F8F8F8);
     text-align: center;

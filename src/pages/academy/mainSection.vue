@@ -15,6 +15,7 @@
 }">
                 <h1>hayche academy</h1>
             </div>
+            <button class="action-btn">sign up</button>
         </section>
     </div>
     <div class="objectiveContainer">
@@ -76,6 +77,12 @@
         <br>
         <br>
 
+        <div class="jobseekers">
+            <div class="jobseeker">
+                <img :src=jobseekers2>
+            </div>
+        </div>
+
         <p>Many jobseekers submit their CV to a hotel, or restaurant, because they may not have
             received a response from the other places to which they applied. Chances are that
             working in a hotel or restaurant was perhaps not their first choice. This is the vicious
@@ -102,6 +109,12 @@
         <br>
         <br>
 
+        <div class="virtualclasses">
+            <div class="virtualclass">
+                <img :src=virtualclass>
+            </div>
+        </div>
+
         <h3>The Hayche virtual classroom/community</h3>
 
         <p>The Hayche virtual classroom / community is comprised of Hayche Network hospitality
@@ -117,13 +130,13 @@
 
         <h3>Hayche Academy workforce development program</h3>
 
-        <p>The objective of Hayche Academy workforce development program is to create 
-economic prosperity for individuals, businesses, and communities.</p>
-<br>
-<p>The program focuses on an individual’s ability to grow their skills and develop the tools 
-they need for business success. In other words, our program trains individuals to be 
-more productive and prosperous in the workplace, which benefits both the employer 
-and the employee,</p>
+        <p>The objective of Hayche Academy workforce development program is to create
+            economic prosperity for individuals, businesses, and communities.</p>
+        <br>
+        <p>The program focuses on an individual’s ability to grow their skills and develop the tools
+            they need for business success. In other words, our program trains individuals to be
+            more productive and prosperous in the workplace, which benefits both the employer
+            and the employee,</p>
 
 
 
@@ -179,6 +192,9 @@ export default {
         goalImg: require('@/assets/academygoal.jpg'),
         objImg: require('@/assets/academicobjective.jpg'),
         howImg: require('@/assets/howtoimg.jpg'),
+        jobseekers: require('@/assets/jobseekers.jpg'),
+        jobseekers2: require('@/assets/jobseekers2.jpg'),
+        virtualclass: require('@/assets/virtualclass.jpg'),
 
 
 
@@ -194,9 +210,10 @@ export default {
     font-size: 30px;
 }
 
-p span{
+p span {
     color: var(--light-purple);
 }
+
 .info {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -223,11 +240,28 @@ p span{
 
 .heading {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     /* border: 1px solid red; */
     height: 100%;
+    gap: 30px;
     width: 100%;
+}
+
+button {
+    padding: 10px 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: var(--light);
+    font-weight: 500;
+    transition: 0.5s ease all;
+    /* color: var(--light); */
+}
+
+button:hover{
+    background: var(--dark-purple);
+    color: var(--light);
 }
 
 .sectionTitle h1 {
@@ -294,6 +328,30 @@ p span{
     width: 400px;
     height: 410px;
     /* border: 1px solid red; */
+}
+
+.jobseekers, .virtualclass {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobseeker, .virtualclass {
+    margin: 50px 0px;
+    width: 90vw;
+    height: 50vh;
+
+
+}
+
+.jobseeker img, .virtualclass img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .objectiveText {
@@ -399,6 +457,11 @@ p span{
     margin-left: 20px;
     margin-top: 30px;
     list-style-type: decimal;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
 }
 
 .note {

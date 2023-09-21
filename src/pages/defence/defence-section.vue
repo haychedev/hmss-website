@@ -121,6 +121,7 @@ agressions-rien-ne
     <section>
         <br>
         <br>
+        <h2 class="subhead">Self defence training for women and girls.</h2>
         <br>
         <br>
         <p>The Train Tough Smart Safe (TTSS) is a violence risk reduction program that trains 
@@ -219,6 +220,14 @@ export default {
 </script>
 
 <style scoped>
+
+.subhead{
+    font-family: Oswald;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
 .wrapper {
     height: 100vh;
 

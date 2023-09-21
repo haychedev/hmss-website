@@ -4,8 +4,9 @@
             <!-- <li><a href="/about" class="mobile-nav-link">about</a></li> -->
             <li  @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="mobile-nav-link">business units</li>
             <ul :class="{ big: active }"  class="biz-items">
+                <a href="/hayche-projects"><li class="biz-item">hayche Dev</li></a>
                <a href="/hayche-academy"><li class="biz-item">hayche academy</li></a>
-               <a href="/hayche-projects"><li class="biz-item">hayche development</li></a>
+              
                <a href="/hayche-digital"><li class="biz-item">hayche digital</li></a>
                <a href="/hayche-lifestyle"><li class="biz-item">hayche lifestyle</li></a>
                <a href="https://hayche-website.pages.dev/" target="blank"><li class="biz-item">hayche network</li></a>

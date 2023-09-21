@@ -47,7 +47,7 @@
                             food.</p>
                     </div>
                     <div class="reviewer-name">
-                        <p>Chisom Winifred</p>
+                        <!-- <p>Chisom Winifred</p> -->
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@
                         <p>Very good, liked it we recommend.</p>
                     </div>
                     <div class="reviewer-name">
-                        <p>Aisha / Andrew</p>
+                        <!-- <p>Aisha / Andrew</p> -->
                     </div>
                 </div>
 
@@ -115,7 +115,7 @@
                         <p>Very good, liked it, will recommend.</p>
                     </div>
                     <div class="reviewer-name">
-                        <p>Aisha / Andrew</p>
+                        <!-- <p>Aisha / Andrew</p> -->
                     </div>
                 </div>
 
@@ -150,7 +150,7 @@
                         <p>I enjoyed my time at Roots Restaurant, especially for bringing in rich African culture and heritage in an environment that is welcoming, clean and comforting.</p>
                     </div>
                     <div class="reviewer-name">
-                        <p>Chisom Winifred</p>
+                        <!-- <p>Chisom Winifred</p> -->
                     </div>
                 </div>
 
@@ -169,7 +169,7 @@ export default {
         mega: require('@/assets/mega-hotels.png'),
         eko: require('@/assets/eko-hotels.png'),
         sheraton: require('@/assets/Sheraton-Hotels.png'),
-        medal: require('@/assets/hayche-medal.png'),
+        medal: require('@/assets/haycheMedal.png'),
         Kilimanjaro: require('@/assets/kilimanjaro.png'),
         pyramid: require('@/assets/la-pyramid.png'),
         roots: require('@/assets/roots.png'),
@@ -182,7 +182,7 @@ export default {
 <style scoped>
 .review-container {
     opacity: 0.8;
-    background: var(--dark-purple, #522888);
+    /* background: var(--dark-purple, #522888); */
 }
 
 .reviewer-name {
@@ -190,7 +190,7 @@ export default {
 }
 
 .review-heading h3 {
-    color: var(--light, #F8F8F8);
+    /* color: var(--light, #F8F8F8); */
     font-family: Oswald;
     font-size: 40px;
     font-style: normal;
@@ -205,7 +205,7 @@ export default {
 }
 
 .review-heading p {
-    color: var(--light);
+    /* color: var(--light); */
     text-align: center;
     letter-spacing: 0.5px;
     width: 80%;
@@ -233,20 +233,21 @@ export default {
 .review-box {
     width: 350px;
     height: 394px;
-    background: #623D93;
+    /* background: #623D93; */
 
     /* card shadow */
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 1px 3px 1px 3px rgba(34, 34, 34, 0.1);
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
     position: relative;
+    
 }
 
 .reviewer h4 {
-    color: var(--light, #F8F8F8);
+    /* color: var(--light, #F8F8F8); */
     font-family: Oswald;
     font-size: 24px;
     font-style: normal;
@@ -258,7 +259,7 @@ export default {
 }
 
 .reviewer-text p {
-    color: var(--light, #F8F8F8);
+    /* color: var(--light, #F8F8F8); */
     font-family: Quicksand;
     font-size: 16px;
     font-style: normal;
@@ -275,8 +276,8 @@ export default {
 
 .review-medals {
     position: absolute;
-    top: 0;
-    right: 10px;
+    bottom: 5px;
+    left: 10px;
 }
 
 .review-medals img {

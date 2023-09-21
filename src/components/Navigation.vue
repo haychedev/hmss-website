@@ -84,9 +84,10 @@ export default {
     position: fixed;
     z-index: 100;
     top: 100px;
-   left: 0;
+   left: 25%;
     background: var(--dark-purple);
-    width: 100%;
+    /* width: 100%; */
+    width: 20%;
 }
 
 .nav-link{

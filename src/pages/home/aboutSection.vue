@@ -16,16 +16,19 @@
                 Hayche Multi Service Solutions (HMSS)
                 is a management consulting firm comprised of the following business units
             </h2>
-            <img class="float-img hospitalityImg" :src=hospitality>
+            <!-- <img class="float-img hospitalityImg" :src=hospitality>
             <img class="float-img trainingImg" :src=training>
             <img class="float-img lifestyleImg" :src=lifestyle>
 
             <div class="arrow-img">
                 <img class="imgLeft" :src=arrowLeft>
                 <img class="imgRight" :src=arrowRight>
-            </div>
+            </div> -->
         </section>
     </main>
+    <section class="business-units">
+        <h2>Our Business Units</h2>
+    </section>
     <main class="units-container">
         <section class="units">
             <div class="unit-item academy" v-motion :initial="{
@@ -171,6 +174,20 @@ export default {
 </script>
 
 <style scoped>
+
+.business-units{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.business-units h2{
+    font-family: Oswald;
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--dull-black);
+}
 .float-img {
     position: absolute;
     width: 20%;
@@ -246,7 +263,7 @@ section {
 
 .units-container {
     min-height: 600px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 

@@ -13,13 +13,13 @@ section{
     justify-content: center;
     align-items: center;
     opacity: 0.8;
-    background: var(--dark-purple, #522888);
+    /* background: var(--dark-purple, #522888); */
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 a{
-     color: var(--light);
+     /* color: var(--light); */
      font-size: 20px;
 }
 </style>

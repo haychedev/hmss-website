@@ -31,13 +31,9 @@
         <div class="objectiveText">
             <h1>our objective</h1>
           
-            <ul>
-                <li>Promote tourism within Africa</li>
-                <li>Showcase the African culture</li>
-                <li>Encourage cultural exchange between
-            professionals</li>
+            <p>Promoting wellness, tourism and showcasing the African culture.</p>
               
-            </ul>
+            
         </div>
         <div class="objectiveImg">
             <img :src=img1>
