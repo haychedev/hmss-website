@@ -137,4 +137,16 @@ export default {
 .unit a{
     color: var(--light);
 }
+
+
+@media only screen and (max-width: 800px){
+    .header-img{
+        width: 85vw;
+        height: 200px;
+    }
+
+    .header h2{
+        font-size: 25px;
+    }
+}
 </style>
