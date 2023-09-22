@@ -148,5 +148,10 @@ export default {
     .header h2{
         font-size: 25px;
     }
+
+    .unit{
+    width: 350px;
+    height: 200px;
+    }
 }
 </style>
