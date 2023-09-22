@@ -73,7 +73,7 @@ export default {
 
   .scale-enter-active,
 .scale-leave-active {
-  transition: all 0.5s ease;
+  transition: all 1s ease;
 }
 
 .scale-enter-from,

@@ -18,6 +18,7 @@ import reviews from './pages/reviews/mainSection.vue';
 import blog from './pages/blog/blogPage.vue';
 import toc from './pages/toc/mainSection.vue';
 import privacy from './pages/privacy/privacyPage.vue';
+import whoWeAre from './pages/who we are/mainSection.vue';
 
 const routes = [
     { path: '/', component: home },
@@ -32,6 +33,7 @@ const routes = [
     { path: '/blog', component: blog },
     { path: '/t&c', component: toc },
     { path: '/privacy', component: privacy },
+    { path: '/who-we-are', component: whoWeAre },
 ];
 
 const router = createRouter({

@@ -2,6 +2,7 @@
     <div class="mobileMenu">
         <ul class="mobile-nav-links">
             <!-- <li><a href="/about" class="mobile-nav-link">about</a></li> -->
+            <li><a href="/who-we-are" class="mobile-nav-link">Who We Are</a></li>
             <li  @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="mobile-nav-link">business units</li>
             <ul :class="{ big: active }"  class="biz-items">
                 <a href="/hayche-projects"><li class="biz-item">hayche Dev</li></a>
