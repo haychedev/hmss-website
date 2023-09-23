@@ -180,7 +180,7 @@ export default {
 
 .our {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
@@ -280,7 +280,7 @@ export default {
 
 @media only screen and (max-width: 800px) {
     .header-img {
-        width: 85vw;
+        width: 90vw;
         height: 200px;
     }
 
@@ -290,6 +290,17 @@ export default {
 
     .unit {
         width: 350px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .our{
+        padding: 20px;
+    }
+
+    .header-img {
+        width: 95vw;
         height: 200px;
     }
 }
