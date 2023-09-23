@@ -81,7 +81,7 @@
 
         <div class="jobseekers">
             <div class="jobseeker">
-                <img :src=jobseekers2>
+                <img :src=jobseeker>
             </div>
         </div>
 
@@ -199,6 +199,7 @@ export default {
         objImg: require('@/assets/academicobjective.jpg'),
         howImg: require('@/assets/howtoimg.jpg'),
         jobseekers: require('@/assets/jobseekers.jpg'),
+        jobseeker: require('@/assets/jobseeker.jpg'),
         jobseekers2: require('@/assets/jobseekers2.jpg'),
         virtualclass: require('@/assets/virtualclass.jpg'),
 

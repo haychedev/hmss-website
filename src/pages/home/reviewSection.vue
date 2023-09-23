@@ -32,7 +32,7 @@
     },
 }">
                     <div class="review-medals">
-                        
+
                         <img :src=medal>
                         <img :src=medal>
                     </div>
@@ -120,7 +120,7 @@
                 </div>
 
 
-                
+
                 <div class="review-box" v-motion :initial="{
                     opacity: 0,
                     y: -50,
@@ -147,7 +147,8 @@
                         <h4>roots restaurant and cafe</h4>
                     </div>
                     <div class="reviewer-text">
-                        <p>I enjoyed my time at Roots Restaurant, especially for bringing in rich African culture and heritage in an environment that is welcoming, clean and comforting.</p>
+                        <p>I enjoyed my time at Roots Restaurant, especially for bringing in rich African culture and
+                            heritage in an environment that is welcoming, clean and comforting.</p>
                     </div>
                     <div class="reviewer-name">
                         <!-- <p>Chisom Winifred</p> -->
@@ -157,7 +158,7 @@
 
 
             </div>
-           
+
         </section>
     </div>
 </template>
@@ -181,7 +182,8 @@ export default {
 
 <style scoped>
 .review-container {
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    /* background: var(--light-purple); */
     /* background: var(--dark-purple, #522888); */
 }
 
@@ -237,13 +239,14 @@ export default {
 
     /* card shadow */
     box-shadow: 1px 3px 1px 3px rgba(34, 34, 34, 0.1);
-    padding-left: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
     position: relative;
     
+
 }
 
 .reviewer h4 {

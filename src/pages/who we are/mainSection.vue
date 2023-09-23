@@ -228,6 +228,7 @@ export default {
 
 .anchor{
     margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -272,6 +273,7 @@ export default {
     font-family: Oswald;
     font-size: 22px;
     font-weight: 400;
+    color: var(--light-purple);
 }
 
 
