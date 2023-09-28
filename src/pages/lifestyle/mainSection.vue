@@ -41,7 +41,10 @@
             <img :src=img1>
         </div>
     </section>
-    <DefenceSection />
+    <div id="defence-section">
+        <DefenceSection />
+    </div>
+    
 </template>
 <script>
 import DefenceSection from '../defence/defence-section.vue';

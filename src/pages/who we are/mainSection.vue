@@ -47,36 +47,42 @@
         <h2>Our services are anchored on three key components:</h2>
         <div class="anchors">
             <div class="anchor-comp">
-            <h3>relationships</h3>
-            <p>We understand the importance of good, strong, lasting business
-                relationships. Our approach focuses on building relationships with our clients, vendors,
-                and other business leaders, by connecting with them on a deeper level, and
-                demonstrating that we genuinely care.</p>
-        </div>
-        <div class="anchor-comp">
-            <h3>careers</h3>
-            <p>The Hayche Academy’s highly successful #StartACareerInHospitality
-                campaign encourages and supports the mass of unemployed youth to start careers in
-                hospitality, and thereby provide a constant supply of qualified personnel to a rapidly
-                growing hospitality industry.</p>
-        </div>
-        <div class="anchor-comp">
-            <h3>results</h3>
-            <p>We adhere strictly to the principles of results-based management, or RBM,
-                which is defined as orienting all action and use of resources towards achieving clearly
-                defined and demonstrable results. RBM increases transparency and accountability,
-                allowing our services to complement one another and avoid overlap and waste.</p>
-        </div>
+                <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                <h3>relationships</h3>
+                <p>We understand the importance of good, strong, lasting business
+                    relationships. Our approach focuses on building relationships with our clients, vendors,
+                    and other business leaders, by connecting with them on a deeper level, and
+                    demonstrating that we genuinely care.</p>
+            </div>
+            <div class="anchor-comp">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <h3>careers</h3>
+                <p>The Hayche Academy’s highly successful #StartACareerInHospitality
+                    campaign encourages and supports the mass of unemployed youth to start careers in
+                    hospitality, and thereby provide a constant supply of qualified personnel to a rapidly
+                    growing hospitality industry.</p>
+            </div>
+            <div class="anchor-comp">
+                <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                <h3>results</h3>
+                <p>We adhere strictly to the principles of results-based management, or RBM,
+                    which is defined as orienting all action and use of resources towards achieving clearly
+                    defined and demonstrable results. RBM increases transparency and accountability,
+                    allowing our services to complement one another and avoid overlap and waste.</p>
+            </div>
         </div>
     </section>
+    <teamSection />
 </template>
 <script>
 
+import teamSection from '../team/mainSection.vue'
 export default {
     data: () => ({
         img1: require('@/assets/logo-mockup.png'),
 
-    })
+    }),
+    components: { teamSection }
 
 }
 
@@ -226,22 +232,22 @@ export default {
     color: var(--light-purple);
 }
 
-.anchor{
+.anchor {
     margin-top: 50px;
     padding-bottom: 50px;
 }
 
 
-.anchor h2{
+.anchor h2 {
     font-family: Oswald;
     font-size: 25px;
     font-weight: 400;
     color: var(--dull-black);
     text-align: center;
-    
+
 }
 
-.anchors{
+.anchors {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,7 +256,7 @@ export default {
     margin-top: 50px;
 }
 
-.anchor-comp{
+.anchor-comp {
     text-align: center;
     width: 300px;
     height: 400px;
@@ -264,11 +270,14 @@ export default {
     transition: all 1s ease;
 }
 
-.anchor-comp:hover{
+
+
+.anchor-comp:hover {
     border: 1px solid var(--light-purple);
     transition: all 1s ease;
 }
-.anchor-comp h3{
+
+.anchor-comp h3 {
     text-transform: capitalize;
     font-family: Oswald;
     font-size: 22px;
@@ -276,6 +285,11 @@ export default {
     color: var(--light-purple);
 }
 
+.anchor-comp i{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: var(--light-purple);
+}
 
 
 @media only screen and (max-width: 800px) {
@@ -294,9 +308,9 @@ export default {
     }
 }
 
-@media only screen and (max-width: 500px){
-    .our{
-        padding: 20px;
+@media only screen and (max-width: 500px) {
+    .our {
+        padding: 30px;
     }
 
     .header-img {

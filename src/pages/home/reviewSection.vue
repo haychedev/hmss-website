@@ -157,6 +157,40 @@
 
 
 
+                <div class="review-box" v-motion :initial="{
+                    opacity: 0,
+                    y: -50,
+                }" :visibleOnce="{
+    opacity: 1,
+    y: 0,
+    transition: {
+        delay: 100,
+        duration: 500,
+        type: 'keyframes',
+        ease: 'easeIn',
+    },
+}">
+                    <div class="review-medals">
+                        <img :src=medal>
+                        <img :src=medal>
+                        <img :src=medal>
+                        <img :src=medal>
+                    </div>
+                    <div class="reviewer-img">
+                        <img :src=oceanbasket>
+                    </div>
+                    <div class="reviewer">
+                        <h4>Ocean Basket</h4>
+                    </div>
+                    <div class="reviewer-text">
+                        <p>We are satisfied with the overall experience, especially the ambience, the food / dessert, and
+                            quality of service</p>
+                    </div>
+                    <div class="reviewer-name">
+                        <!-- <p>Chisom Winifred</p> -->
+                    </div>
+                </div>
+
             </div>
 
         </section>
@@ -175,6 +209,7 @@ export default {
         pyramid: require('@/assets/la-pyramid.png'),
         roots: require('@/assets/roots.png'),
         roundabout: require('@/assets/the-roundabout.png'),
+        oceanbasket: require('@/assets/oceanbasket.jpg'),
 
     })
 }
@@ -245,7 +280,7 @@ export default {
     justify-content: center;
     gap: 30px;
     position: relative;
-    
+
 
 }
 
