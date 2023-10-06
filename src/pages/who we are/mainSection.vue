@@ -130,7 +130,7 @@
                 <!-- <a href="/src/assets/Womens self defense.pdf" download>
                     Download TTSS program info
                 </a> -->
-                <a href="https://shorturl.at/qrWY8" download>
+                <a href="https://shorturl.at/qrWY8" target="_blank" download>
                     Download TTSS program info
                 </a>
                 
