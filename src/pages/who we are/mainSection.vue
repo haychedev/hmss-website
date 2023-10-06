@@ -1,5 +1,5 @@
 <template>
-    <section class="header">
+    <!-- <section class="header">
         <h2>Hayche Multi Service Solutions (HMSS) is a consulting firm duly registered in Nigeria
             with RC 1530243.</h2>
         <div class="header-img">
@@ -42,8 +42,10 @@
             <h3>Our Mission</h3>
             <p>To recognize and maximize individual human potential</p>
         </div>
-    </section>
-    <section class="anchor">
+    </section> -->
+
+
+    <!-- <section class="anchor">
         <h2>Our services are anchored on three key components:</h2>
         <div class="anchors">
             <div class="anchor-comp">
@@ -71,7 +73,88 @@
                     allowing our services to complement one another and avoid overlap and waste.</p>
             </div>
         </div>
+    </section> -->
+
+
+    <section>
+        <h2 class="heading">
+            our story
+        </h2>
+        <div class="header-img">
+            <img :src=img1>
+        </div>
+        <div class="context">
+            <p>Hayche embodies the visionary dream of its founder and CEO, Aisha Yusuf. In 2012, she laid the foundation for
+                the Hayche Network, initially conceived as a specialized hospitality management and recruitment agency. Our
+                primary focus was on training and supplying top-tier industry professionals to the ever-evolving Hospitality
+                sector.</p>
+            <p>Within three years, the Hayche Network had grown to encompass over eleven thousand members. These ranged from
+                highly experienced individuals in the hospitality industry, including general managers, food and beverage
+                directors, chefs, and supervisors, to those with no little or no experience. From this diverse talent pool,
+                we are able to quickly select and deploy candidates to various roles, thereby fostering an efficient
+                recruitment process.</p>
+
+            <p>However, a noticeable disparity emerged, with a significant number of network members lacking any industry
+                experience. To address this gap, Aisha Yusuf conceived the Hayche Academy. Its mission is to prepare
+                individuals for a rewarding career in the hospitality sector. The synergy between Hayche Academy and The
+                Network creates an integrated human resource service, empowering our clients with effective HR management
+                solutions.</p>
+
+            <p>By 2016, Hayche had successfully undertaken HR management for a diverse portfolio of hospitality
+                establishments throughout Nigeria. In response to this growth, we developed two essential tools: the
+                Candidate Evaluation Mobile App (CEMA) and the Human Resource Information System (HaycheR). CEMA
+                revolutionized candidate assessment by capturing both quantitative and qualitative data, evaluating
+                experience, skills, knowledge, and work styles. Meanwhile, HaycheR became a central hub for employee data,
+                payroll management, recruitment processes, benefits administration, and attendance tracking.</p>
+
+            <p>Expanding our digital capabilities, we developed various mobile apps to support our clients in streamlining
+                administrative processes, minimizing fraud, and realizing significant productivity gains by reducing the
+                overreliance on paper. This led to the establishment of the Hayche Digital business unit, dedicated to the
+                development of mobile data solutions.</p>
+
+            <p>In 2017, Hayche successfully secured a contract to conduct organizational capacity assessments (OCA) for
+                civil society organizations across Nigeria. This endeavour prompted the development of the Organizational
+                Capacity Assessment Mobile App (OCAM) to facilitate the assessment process. Subsequently, Hayche identified
+                a prevailing weakness among these organizations in monitoring and evaluation (M&E). To address this, we
+                entered into a strategic partnership with Ai Data Management Solutions, enabling us to provide M&E support
+                to CSOs and non-profit organizations. This collaboration culminated in the formation of the Hayche
+                Development (HDev) business unit, dedicated to supporting non-profits, and government ministries to
+                integrate M&E as a management tool, rather than a donor requirement.</p>
+
+            <p>Hayche Lifestyle (HL) is committed to empowering women and girls, promoting wellness and African culture, and
+                encouraging professional cultural exchange.</p>
+
+            <p>A major initiative of HL is the Train Tough Smart Safe (TTSS), a violence risk reduction program that teaches
+                young girls and women to avoid becoming victims of sexual violence. 
+
+                <!-- <a href="/src/assets/Womens self defense.pdf" download>
+                    Download TTSS program info
+                </a> -->
+                <a href="https://shorturl.at/qrWY8" download>
+                    Download TTSS program info
+                </a>
+                
+
+               
+
+            </p>
+
+            <p>TTSS is not merely a program; it's a transformative initiative that empowers women and girls to take charge
+                of their own safety and well-being. Through dedicated training and continuous support, TTSS aims to create a
+                world where women and girls can confidently face the challenges posed by violence and emerge stronger and
+                more resilient.</p>
+
+            <p>Currently available in Abuja and Enugu. TTSS extends an open invitation to trainers interested in expanding
+                its reach to other locations. Interested individuals are required to undergo comprehensive training and
+                certification. Upon successful completion, certified instructors gain access to the TTSS curriculum and
+                receive ongoing support to ensure adherence to program methodology, and approach.</p>
+
+            <p>Our managing director Andrew Igbo, a seasoned martial arts expert developed TTSS in collaboration with
+                martial arts instructors, and security experts in various countries. Mr. Igbo has over three decades of
+                experience in training and teaching martial arts and self-defense to diverse populations worldwide.</p>
+        </div>
     </section>
+
     <teamSection />
 </template>
 <script>
@@ -88,6 +171,17 @@ export default {
 
 </script>
 <style scoped>
+.heading {
+    font-family: Oswald;
+    font-size: 35px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px 0;
+    color: var(--dull-black);
+    padding-top: 100px;
+}
+
 .header {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -115,6 +209,21 @@ export default {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.context {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.context p {
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.context p a{
+    color: var(--light-purple);
 }
 
 .business-units h2 {
@@ -285,7 +394,7 @@ export default {
     color: var(--light-purple);
 }
 
-.anchor-comp i{
+.anchor-comp i {
     font-size: 40px;
     margin-bottom: 20px;
     color: var(--light-purple);
