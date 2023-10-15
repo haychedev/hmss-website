@@ -32,8 +32,10 @@
                 </div>
                 <h3>Lorna Enow </h3>
                 <h4>Director, Central Africa</h4>
-                <p>Lorna is the HMSS director for West Africa; she is based in Yaonde, Cameroon
-                    She is fluent in English, and French.</p>
+                <p>Lorna Enow is a dynamic individual who speaks fluent English and French. As the HMSS Director of Central
+                    Africa, Lorna plays a pivotal role in developing digital products for francophone clients, overseeing
+                    the entire software development lifecycle. She ensures the successful delivery of digital products,
+                    meets client needs, and manages development teams with precision and expertise.</p>
             </div>
 
             <div class="team">
@@ -163,12 +165,13 @@ export default {
 
 .team p {
     font-size: 16px;
-   
+
 }
 
-.team p a{
+.team p a {
     text-decoration: underline;
 }
+
 .team:first-child {
     /* flex: 0 0 100%; */
 }
@@ -210,5 +213,4 @@ export default {
         /* justify-content: center; */
         height: 530px;
     }
-}
-</style>
+}</style>

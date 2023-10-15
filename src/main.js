@@ -20,6 +20,23 @@ import toc from './pages/toc/mainSection.vue';
 import privacy from './pages/privacy/privacyPage.vue';
 import whoWeAre from './pages/who we are/mainSection.vue';
 import ourTeam from './pages/team/mainSection.vue';
+import tourism from './pages/blog/tourism/mainSection.vue';
+import food from './pages/blog/food/mainSection.vue';
+import carpeVerde from './pages/blog/tourism/carpe-verde.vue';
+import travelling from './pages/blog/tourism/travelling-from-nigeria.vue';
+import travelSolo from './pages/blog/tourism/travel-solo.vue';
+import dakarTour from './pages/blog/tourism/dakarTour.vue';
+import NgoziNgoka from './pages/blog/tourism/ngozi-ngoka.vue';
+import hotel from './pages/blog/hotel/mainSection.vue';
+import skills from './pages/blog/hotel/professional-skills.vue';
+import customerRight from './pages/blog/hotel/customer-right.vue';
+import customerService from './pages/blog/hotel/customer-service.vue';
+import customerService2 from './pages/blog/hotel/customer-service2.vue';
+import hospitalityCareer from './pages/blog/hotel/hospitality-career.vue';
+import phoneEtiquette from './pages/blog/hotel/phoneEtiquette.vue';
+import chefBlack from './pages/blog/food/chefBlack.vue';
+
+
 
 const routes = [
     { path: '/', component: home },
@@ -36,6 +53,22 @@ const routes = [
     { path: '/privacy', component: privacy },
     { path: '/who-we-are', component: whoWeAre },
     { path: '/our-team', component: ourTeam },
+    { path: '/blog/tourism', component: tourism },
+    { path: '/blog/food', component: food },
+    { path: '/Meet-Chef-Black', component: chefBlack },
+    { path: '/visit-to-carpe-verde', component: carpeVerde },
+    { path: '/A-Quick-Tour-of-Dakar', component: dakarTour },
+    { path: '/is-it-better-to-travel-solo', component: travelSolo },
+    { path: '/travelling-from-Nigeria', component: travelling },
+    { path: '/meet-Ngozi-Ngoka', component: NgoziNgoka },
+    { path: '/blog/hotel', component: hotel },
+    { path: '/5-Professional-Skills-a-hospitality-manager-must-possess', component: skills },
+    { path: '/Are-you-in-customer-service-This-is-for-you', component: customerService },
+    { path: '/Is-the-customer-really-always-right', component: customerRight },
+    { path: '/Customer-service-is-all-about-the-customer', component: customerService2 },
+    { path: '/Are-you-using-the-right-phone-etiquette-for-your-business-image', component: phoneEtiquette },
+    { path: '/Are-You-Ready-To-Start-An-Exciting-Career-In-Hospitality', component: hospitalityCareer },
+    
 ];
 
 const router = createRouter({

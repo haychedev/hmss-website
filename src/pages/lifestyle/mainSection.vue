@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <section>
+        <section class="main">
             <div class="sectionTitle" v-motion :initial="{
                 opacity: 0,
                 x: -100,
@@ -41,6 +41,10 @@
             <img :src=img1>
         </div>
     </section>
+    
+    <div id="blogThumbnaail"><blogThumbnail /></div>
+        
+
     <div id="defence-section">
         <DefenceSection />
     </div>
@@ -48,13 +52,15 @@
 </template>
 <script>
 import DefenceSection from '../defence/defence-section.vue';
+import blogThumbnail from '../blog/blogThumbnail.vue'
 
 export default {
     data: () => ({
         img1: require('@/assets/africa.jpg'),
         img2: require('@/assets/africa-culture.jpg'),
     }),
-    components: { DefenceSection }
+    components: { DefenceSection, blogThumbnail }
+    
 }
 </script>
 <style scoped>
@@ -74,7 +80,7 @@ export default {
 }
 
 
-section {
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
