@@ -1,5 +1,4 @@
 <template>
-    
     <header class="desktop-nav" v-if="!mobileView">
         <div class="header-right">
             <div class="logo">
@@ -8,10 +7,10 @@
         </div>
         <div class="header-left">
             <ul class="nav-links">
-               <!-- <li class="nav-link"><a href="/about">About Us</a></li> -->
+                <!-- <li class="nav-link"><a href="/about">About Us</a></li> -->
                 <!-- <li class="nav-link"><a href="">Business Units</a></li> -->
                 <li class="nav-link"><a href="/who-we-are">Who We Are</a></li>
-                <li  @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="nav-link">Business Units</li>
+                <li @click="active = !active" :aria-pressed="active ? 'true' : 'false'" class="nav-link">Business Units</li>
                 <li class="nav-link"><a href="/#reviews">Reviews</a></li>
                 <li class="nav-link"><a href="/contact">Contact</a></li>
                 <li class="nav-link"><a href="/blog">Blog</a></li>
@@ -20,28 +19,27 @@
         <div class="navCta">
             <a href="" class="loginBtn">login</a>
         </div>
-       
+
     </header>
 
     <!-- <RouterView :class="{ 'scrollLock': showNav}" /> -->
 
     <!-- <RouterView v-scroll-lock = "showNav"/> -->
 
-    <DropDown :class="{ big: active }"/>
+    <DropDown :class="{ big: active }" v-show="isVisible" />
 
 
     <MobileNavigationMenu :class="{ 'open': showNav }" />
 
 
-    <div class="mobile-nav" v-if="mobileView" >
-        <div class="mobile-nav-logo" >
+    <div class="mobile-nav" v-if="mobileView">
+        <div class="mobile-nav-logo">
             <a href="/"><img class="logo-img" src="../assets/hmss-logo.png" alt="hayche logo"></a>
         </div>
         <div id="nav-icon" class="nav-icon" @click="showNav = !showNav">
-            <i class="fas fa-bars" :class="{ 'fa fa-times' : showNav}"></i>
+            <i class="fas fa-bars" :class="{ 'fa fa-times': showNav }"></i>
         </div>
     </div>
-   
 </template>
 
 <script>
@@ -60,39 +58,66 @@ export default {
     data: () => ({
         mobileView: true,
         showNav: false,
-        active: false
+        active: false,
+
+        // script to make dropDown disappear on scroll
+        isVisible: true,
     }),
-    methods: {
-        handleView() {
-            this.mobileView = window.innerWidth <= 990;
-        }
+
+
+methods: {
+    handleView() {
+        this.mobileView = window.innerWidth <= 990;
     },
-    components: { MobileNavigationMenu, DropDown },
-    created() {
-        this.handleView();
-        window.addEventListener('resize', this.handleView);
+
+    handleScroll() {
+        // Implement logic to determine when to hide the div
+        const scrollPositionToHide = 100; // Adjust this value as needed
+
+        // Check the current scroll position
+        const scrollY = window.scrollY;
+
+        // Determine if the div should be hidden
+        this.isVisible = scrollY < scrollPositionToHide;
     },
+},
+
+
+components: { MobileNavigationMenu, DropDown },
+created() {
+    this.handleView();
+    window.addEventListener('resize', this.handleView);
+},
+// script to make dropDown disappear on scroll
+mounted() {
+    window.addEventListener('scroll', this.handleScroll);
     // components: { MobileNavigation,}
+},
+beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+
 }
 </script>
 
 <style scoped>
-.scrollLock{
+.scrollLock {
     overflow-y: hidden;
 }
-.big{
+
+.big {
     display: block;
     position: fixed;
     z-index: 100;
     top: 100px;
-   left: 30%;
+    left: 30%;
     background: var(--dark-purple);
     /* width: 100%; */
     width: 20%;
     border: 1px solid var(--light);
 }
 
-.nav-link{
+.nav-link {
     color: var(--light);
     cursor: pointer;
 }

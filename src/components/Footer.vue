@@ -22,9 +22,9 @@
 
                     <h3>company</h3>
                     <ul class="footer-links">
-                        <li><a href="" class="footer-link">about us</a></li>
-                        <li><a href="" class="footer-link">team</a></li>
-                        <li><a href="" class="footer-link">blog</a></li>
+                        <li><a href="/who-we-are" class="footer-link">about us</a></li>
+                        <li><a href="/who-we-are#teamSection" class="footer-link">team</a></li>
+                        <li><a href="/blog" class="footer-link">blog</a></li>
                     </ul>
 
                 </div>

@@ -175,7 +175,7 @@
         </div>
     </section>
 
-    <teamSection />
+    <teamSection id="teamSection"/>
 </template>
 <script>
 
