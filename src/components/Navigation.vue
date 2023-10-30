@@ -152,8 +152,8 @@ beforeUnmount() {
     padding: 20px 100px;
     justify-content: space-between;
     align-items: center;
-    background: #1111113f;
-    position: fixed;
+    background: #1111116c;
+    position: absolute;
     top: 0;
     width: 100%;
     z-index: 999;

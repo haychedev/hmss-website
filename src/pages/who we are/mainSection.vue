@@ -1,88 +1,21 @@
 <template>
-    <!-- <section class="header">
-        <h2>Hayche Multi Service Solutions (HMSS) is a consulting firm duly registered in Nigeria
-            with RC 1530243.</h2>
-        <div class="header-img">
-            <img :src=img1>
-        </div>
-    </section>
-    <section class="business-units">
-        <h2> HMSS is comprised of the following business units:</h2>
-        <div class="units">
-            <div class="unit Hdev">
-                <h3>HDev</h3>
-                <a href="/hayche-projects">learn more</a>
-            </div>
-            <div class="unit HA">
-                <h3>Hayche Academy</h3>
-                <a href="/hayche-academy">learn more</a>
-            </div>
-            <div class="unit HLife">
-                <h3>Hayche Lifestyle</h3>
-                <a href="/hayche-lifestyle">learn more</a>
-            </div>
-            <div class="unit HN">
-                <h3>Hayche Network</h3>
-                <a href="https://hayche-website.pages.dev/" target="_blank">learn more</a>
-            </div>
-            <div class="unit HD">
-                <h3>Hayche digital</h3>
-                <a href="/hayche-digital">learn more</a>
-            </div>
-        </div>
-    </section>
-    <section class="our">
-        <div class="our-comp">
-            <i class="fa fa-eye" aria-hidden="true"></i>
-            <h3>Our Vision</h3>
-            <p>To inspire people-driven solutions.</p>
-        </div>
-        <div class="our-comp">
-            <i class="fa fa-bullseye" aria-hidden="true"></i>
-            <h3>Our Mission</h3>
-            <p>To recognize and maximize individual human potential</p>
-        </div>
-    </section> -->
-
-
-    <!-- <section class="anchor">
-        <h2>Our services are anchored on three key components:</h2>
-        <div class="anchors">
-            <div class="anchor-comp">
-                <i class="fa fa-handshake-o" aria-hidden="true"></i>
-                <h3>relationships</h3>
-                <p>We understand the importance of good, strong, lasting business
-                    relationships. Our approach focuses on building relationships with our clients, vendors,
-                    and other business leaders, by connecting with them on a deeper level, and
-                    demonstrating that we genuinely care.</p>
-            </div>
-            <div class="anchor-comp">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <h3>careers</h3>
-                <p>The Hayche Academy’s highly successful #StartACareerInHospitality
-                    campaign encourages and supports the mass of unemployed youth to start careers in
-                    hospitality, and thereby provide a constant supply of qualified personnel to a rapidly
-                    growing hospitality industry.</p>
-            </div>
-            <div class="anchor-comp">
-                <i class="fa fa-check-square-o" aria-hidden="true"></i>
-                <h3>results</h3>
-                <p>We adhere strictly to the principles of results-based management, or RBM,
-                    which is defined as orienting all action and use of resources towards achieving clearly
-                    defined and demonstrable results. RBM increases transparency and accountability,
-                    allowing our services to complement one another and avoid overlap and waste.</p>
-            </div>
-        </div>
-    </section> -->
-
-
     <section>
         <h2 class="heading">
             our story
         </h2>
-        <div class="header-img">
+
+        <!-- <div class="header-img">
             <img :src=img1>
+        </div> -->
+
+        <div class="videoContainer">
+            <iframe
+                src="https://player.vimeo.com/video/879456619?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                title="hayche"></iframe>
         </div>
+
         <div class="context">
             <p>Hayche embodies the visionary dream of its founder and CEO, Aisha Yusuf. In 2012, she laid the foundation for
                 the Hayche Network, initially conceived as a specialized hospitality management and recruitment agency. Our
@@ -144,7 +77,7 @@
                     <!-- <a href="/src/assets/Womens self defense.pdf" download>
                     Download TTSS program info
                 </a> -->
-                    <a href="https://shorturl.at/qrWY8" download>
+                    <a href="/defense-pdf">
                         Download TTSS program info
                     </a>
 
@@ -171,11 +104,14 @@
                     martial arts instructors, and security experts in various countries. Mr. Igbo has over three decades of
                     experience in training and teaching martial arts and self-defense to diverse populations worldwide.</p>
             </div>
+
+
             <button @click="isShowing ^= true">read more</button>
+
         </div>
     </section>
 
-    <teamSection id="teamSection"/>
+    <teamSection id="teamSection" />
 </template>
 <script>
 
@@ -201,6 +137,12 @@ export default {
     padding: 20px 0;
     color: var(--dull-black);
     padding-top: 100px;
+}
+
+.videoContainer {
+    width: 100%;
+    position: relative;
+    height: 500px;
 }
 
 .header {
@@ -459,5 +401,9 @@ button {
     .header-img {
         width: 95vw;
         height: 200px;
+    }
+
+    .videoContainer{
+        height: 300px;
     }
 }</style>

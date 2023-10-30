@@ -35,6 +35,7 @@ import customerService2 from './pages/blog/hotel/customer-service2.vue';
 import hospitalityCareer from './pages/blog/hotel/hospitality-career.vue';
 import phoneEtiquette from './pages/blog/hotel/phoneEtiquette.vue';
 import chefBlack from './pages/blog/food/chefBlack.vue';
+import defensePdf from './pages/who we are/defense-pdf.vue'
 
 
 
@@ -68,6 +69,7 @@ const routes = [
     { path: '/Customer-service-is-all-about-the-customer', component: customerService2 },
     { path: '/Are-you-using-the-right-phone-etiquette-for-your-business-image', component: phoneEtiquette },
     { path: '/Are-You-Ready-To-Start-An-Exciting-Career-In-Hospitality', component: hospitalityCareer },
+    { path: '/defense-pdf', component: defensePdf },
     
 ];
 
