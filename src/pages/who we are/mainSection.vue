@@ -78,7 +78,7 @@
                     <!-- <a href="/defense-pdf">
                         Download TTSS program info
                     </a> -->
-                     <a href="/src/assets/women.pdf" download>Download TTSS program info</a>
+                     <a href="/src/assets/women.pdf" download="/src/assets/women.pdf">Download TTSS program info</a>
 
 
                     
