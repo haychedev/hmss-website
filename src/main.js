@@ -16,6 +16,7 @@ import contact from './pages/contact/contactPage.vue';
 import network from './pages/network/networkPage.vue';
 import reviews from './pages/reviews/mainSection.vue';
 import blog from './pages/blog/blogPage.vue';
+import blogPage from './pages/blog/blogMain.vue';
 import toc from './pages/toc/mainSection.vue';
 import privacy from './pages/privacy/privacyPage.vue';
 import whoWeAre from './pages/who we are/mainSection.vue';
@@ -50,6 +51,7 @@ const routes = [
     { path: '/hayche-network', component: network },
     { path: '/reviews', component: reviews },
     { path: '/blog', component: blog },
+    { path: '/blogPage', component: blogPage },
     { path: '/t&c', component: toc },
     { path: '/privacy', component: privacy },
     { path: '/who-we-are', component: whoWeAre },
