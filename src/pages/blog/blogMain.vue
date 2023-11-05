@@ -144,7 +144,7 @@ export default {
 <style scoped>
 .container {
     padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .blogContent-img {
