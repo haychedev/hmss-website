@@ -74,12 +74,11 @@
                     teaches
                     young girls and women to avoid becoming victims of sexual violence.
 
-                    <!-- <a href="/src/assets/Womens self defense.pdf" download>
-                    Download TTSS program info
-                </a> -->
-                    <a href="/defense-pdf">
+                   
+                    <!-- <a href="/defense-pdf">
                         Download TTSS program info
-                    </a>
+                    </a> -->
+                     <a href="/src/assets/women-self-defence.pdf" download>Download TTSS program info</a>
 
 
 
