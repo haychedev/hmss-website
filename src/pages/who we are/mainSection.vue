@@ -12,8 +12,7 @@
             <iframe
                 src="https://player.vimeo.com/video/879456619?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
                 frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-                style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                title="hayche"></iframe>
+                style="position:absolute;top:0;left:0;width:100%;height:100%;" title="hayche"></iframe>
         </div>
 
         <div class="context">
@@ -74,16 +73,18 @@
                     teaches
                     young girls and women to avoid becoming victims of sexual violence.
 
-                   
+
                     <!-- <a href="/defense-pdf">
                         Download TTSS program info
                     </a> -->
-                     <!-- <a href="https://www.docdroid.net/file/download/suBR05D/womens-self-defense-1-pdf.pdf" download="women.pdf">Download TTSS program info</a> -->
+                    <!-- <a href="https://www.docdroid.net/file/download/suBR05D/womens-self-defense-1-pdf.pdf" download="women.pdf">Download TTSS program info</a> -->
 
-                     <a href="/public/files/Womens self defense (1).pdf" download>DOWNLOAD</a>
+                    <a href="/public/files/Womens self defense (1).pdf" download>
+                        <button class="btn btn-primary">Download</button>
+                    </a>
 
 
-                    
+
 
                 </p>
 
@@ -404,7 +405,8 @@ button {
         height: 200px;
     }
 
-    .videoContainer{
+    .videoContainer {
         height: 300px;
     }
-}</style>
+}
+</style>
