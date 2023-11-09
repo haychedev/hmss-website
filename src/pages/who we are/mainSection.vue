@@ -77,11 +77,11 @@
                     <!-- <a href="/defense-pdf">
                         Download TTSS program info
                     </a> -->
-                    <!-- <a href="https://www.docdroid.net/file/download/suBR05D/womens-self-defense-1-pdf.pdf" download="women.pdf">Download TTSS program info</a> -->
+                    <a href="https://www.docdroid.net/file/download/suBR05D/womens-self-defense-1-pdf.pdf" download="women.pdf">Download TTSS program info</a>
 
-                    <a href="../../assets/WOMENS-SELF-DEFENSE.pdf" download>
+                    <!-- <a href="../../assets/WOMENS-SELF-DEFENSE.pdf" download>
                         <button class="btn btn-primary">Download TTSS program info</button>
-                    </a>
+                    </a> -->
 
 
 
