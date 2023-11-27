@@ -23,7 +23,8 @@
                         <div class="blogContent-img">
                             <img :src=nigeria>
                         </div>
-                        <p><a href="/travelling-from-Nigeria">Travelling from Nigeria? You’ll be surprised how little it costs to visit these
+                        <p><a href="/travelling-from-Nigeria">Travelling from Nigeria? You’ll be surprised how little it
+                                costs to visit these
                                 countries!</a></p>
                     </div>
 
@@ -39,77 +40,84 @@
                     <div class="blogContent-img">
                         <img :src=ngozi>
                     </div>
-                    <p><a href="/meet-Ngozi-Ngoka">Meet Lolo Ngozi Ngoka who is passionate about promoting tourism in Nigeria</a></p>
+                    <p class="ngText"><a href="/meet-Ngozi-Ngoka">Meet Lolo Ngozi Ngoka who is passionate
+                            <br> about promoting tourism in Nigeria</a></p>
                 </div>
             </div>
 
-                    <!-- hotel -->
+            <!-- hotel -->
 
-        <div class="blogPost">
-            <h2>hotel</h2>
-            <div class="blogContents">
-                <div class="blogContent">
-                    <div class="blogContent-img">
-                        <img :src=manager>
+            <div class="blogPost">
+                <h2>hotel</h2>
+                <div class="blogContents">
+                    <div class="blogContent">
+                        <div class="blogContent-img">
+                            <img :src=manager>
+                        </div>
+                        <p><a href="/5-Professional-Skills-a-hospitality-manager-must-possess">5 Professional Skills a
+                                hospitality manager must possess</a></p>
                     </div>
-                    <p><a href="/5-Professional-Skills-a-hospitality-manager-must-possess">5 Professional Skills a hospitality manager must possess</a></p>
-                </div>
 
-                <div class="blogContent">
-                    <div class="blogContent-img">
-                        <img :src=customerService>
+                    <div class="blogContent">
+                        <div class="blogContent-img">
+                            <img :src=customerService>
+                        </div>
+                        <p><a href="/Are-you-in-customer-service-This-is-for-you">Are you in customer service? This is for
+                                you!</a></p>
                     </div>
-                    <p><a href="/Are-you-in-customer-service-This-is-for-you">Are you in customer service? This is for you!</a></p>
-                </div>
 
-                <div class="blogContent">
-                    <div class="blogContent-img">
-                        <img :src=customerRight>
+                    <div class="blogContent">
+                        <div class="blogContent-img">
+                            <img :src=customerRight>
+                        </div>
+                        <p><a href="/Is-the-customer-really-always-right">Is the customer really always right?</a></p>
                     </div>
-                    <p><a href="/Is-the-customer-really-always-right">Is the customer really always right?</a></p>
-                </div>
 
-                <div class="blogContent">
-                    <div class="blogContent-img">
-                        <img :src=customerService2>
+                    <div class="blogContent">
+                        <div class="blogContent-img">
+                            <img :src=customerService2>
+                        </div>
+                        <p><a href="/Customer-service-is-all-about-the-customer">Customer service is all about the
+                                customer</a></p>
                     </div>
-                    <p><a href="/Customer-service-is-all-about-the-customer">Customer service is all about the customer</a></p>
-                </div>
 
-                <div class="blogContent">
-                    <div class="blogContent-img">
-                        <img :src=phoneEtiquette>
+                    <div class="blogContent">
+                        <div class="blogContent-img">
+                            <img :src=phoneEtiquette>
+                        </div>
+                        <p><a href="/Are-you-using-the-right-phone-etiquette-for-your-business-image">Are you using the
+                                right phone etiquette for your business image?</a></p>
                     </div>
-                    <p><a href="/Are-you-using-the-right-phone-etiquette-for-your-business-image">Are you using the right phone etiquette for your business image?</a></p>
-                </div>
 
-                <div class="blogContent">
-                    <div class="blogContent-img">
-                        <img :src=hospitalityCareer>
+                    <div class="blogContent">
+                        <div class="blogContent-img">
+                            <img :src=hospitalityCareer>
+                        </div>
+                        <p><a href="/Are-You-Ready-To-Start-An-Exciting-Career-In-Hospitality">Are You Ready To Start An
+                                Exciting Career In Hospitality?</a></p>
                     </div>
-                    <p><a href="/Are-You-Ready-To-Start-An-Exciting-Career-In-Hospitality">Are You Ready To Start An Exciting Career In Hospitality?</a></p>
                 </div>
-            </div>
-        </div>
-
-
-
-        <!-- food -->
-        <div class="blogPost">
-            <h2>food</h2>
-            <div class="blogContents">
-                <div class="blogContent">
-                    <div class="blogContent-img">
-                        <img :src=chefBlack>
-                    </div>
-                    <p><a href="/Meet-Chef-Black">Meet Chef Black, the Nigerian Chef keen on Changing the Global Perception of Nigerian
-                            Food</a></p>
-                </div>
-
             </div>
 
 
-        </div>
+
+            <!-- food -->
+            <div class="blogPost">
+                <h2>food</h2>
+                <div class="blogContents">
+                    <div class="blogContent">
+                        <div class="blogContent-img">
+                            <img :src=chefBlack>
+                        </div>
+                        <p><a href="/Meet-Chef-Black">Meet Chef Black, the Nigerian Chef keen
+                                <br> on Changing the Global Perception of
+                                <br> Nigerian Food</a></p>
+                    </div>
+
+                </div>
+
+
+            </div>
 
         </div>
 
@@ -160,14 +168,18 @@ export default {
 
 }
 
+
+
 .blogContent p {
-    width: 90%;
+    width: 80%;
     margin-bottom: 20px;
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
-.blogContent p:hover{
+
+
+.blogContent p:hover {
     text-decoration: underline;
     transition: all 0.5s ease;
 }
@@ -243,5 +255,4 @@ export default {
     .blogContent-img {
         width: 100%;
     }
-}
-</style>
+}</style>
